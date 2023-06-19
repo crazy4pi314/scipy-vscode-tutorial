@@ -20,7 +20,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"python.defaultInterpreterPath": "/opt/conda/envs/demo"
+				"python.defaultInterpreterPath": "/opt/conda/envs/tutorial"
 			},
 			"extensions": [
 				"ms-python.python",
