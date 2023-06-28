@@ -10,9 +10,13 @@ Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, 
 
 ### Option 1: Start instantly in your browser with GitHub Codespaces
 
-1. Click on the green _Code_ button, and then on the _Codespaces_ tab to create a codespace.  
+1. [Create a free GitHub account](https://github.com/join) if you don't have one already
 
-You should now have a VS Code window in your browser with the repository open, running in a Codespace (2 cores by default).
+1. On the landing page of [this repository](https://github.com/crazy4pi314/scipy-vscode-tutorial), click on the green _Code_ button, and then on the _Codespaces_ tab to create a codespace.
+
+After a short while you should have a VS Code window in your browser with the repository open.
+
+Note: by default, the container running your code space will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.
 
 ### Option 2: Work on your computer
 
@@ -30,6 +34,7 @@ With VS Code ready to go, it's time to jump into the [tutorial outline](outline.
 
 
 ## Structure of this repository
+
 This repository contains a [Dev Container](https://containers.dev/) setup that provides [conda](https://github.com/conda/conda) and [mamba](https://github.com/mamba-org/mamba) for setting up Python environments.
 This repo contains a sample Conda environment file ([environment.yml](environment.yml)), demo Jupyter notebook, and Dev Container configuration files that describe how a containerized development can be built for the repo.
 These configuration files work for both local Dev Containers as well as [Codespaces](https://github.com/features/codespaces), a GitHub-hosted cloud environment.
