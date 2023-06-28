@@ -1,6 +1,6 @@
 # Tutorial outline
 
-We will be using Live Share so instead of repeating the instructions on your VS Code instance, you can ualso join the VS Code session directly from your browser or local VS Code instance. Each section contains a set of self-guided exercises, some examples of which are highlighted in the outline below.
+We will be using Live Share so instead of repeating the instructions on your VS Code instance, you can also join the VS Code session directly from your browser or local VS Code instance. Each section contains a set of self-guided exercises, some examples of which are highlighted in the outline below.
 
 We end each section with a recap to go over everything we’ve covered and an opportunity to ask questions.
 
