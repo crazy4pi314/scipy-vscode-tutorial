@@ -1,12 +1,14 @@
-# Meet your coding best friend: VS Code 💖 - A hands-on tutorial on how to get the most out of the world’s most popular Python editor
+# ![Raccon mascot bit in a header image working on a laptop with the title: Meet your coding best friend: VS Code💖](image.png)
 
-This repository accompanies the [VS Code tutorial at SciPy 2023](https://cfp.scipy.org/2023/talk/RKV3PZ/) of the same title.
+## _A hands-on tutorial on how to get the most out of the world’s most popular Python editor_ presented at [SciPy 2023](https://cfp.scipy.org/2023/talk/RKV3PZ/).
 
-Basic knowledge of Python and git will allow you to take best advantage of this tutorial. No previous experience with VS Code is required.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/crazy4pi314/scipy-vscode-tutorial?quickstart=1)
+
+Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, macOS and in your browser. This tutorial aims at Python programmers of all levels who are already using VS Code or are interested in doing so, and will take them from zero (installing VS Code) to a production setup for Python development. We will cover starter topics, such as customizing the UI and extensions, using code autocomplete, code navigation, debugging, and Jupyter Notebooks. We will also go into advanced use cases, such as remote development, pair programming via Live Share, Dev containers, GitHub Codespaces & more.
 
 ## Installation instructions
 
-### Start instantly with GitHub Codespaces
+### Option 1: Start instantly in your browser with GitHub Codespaces
 
 1. [Create a free GitHub account](https://github.com/join) if you don't have one already
 
@@ -16,19 +18,20 @@ After a short while you should have a VS Code window in your browser with the re
 
 Note: by default, the container running your code space will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.
 
-### Work on your computer
+### Option 2: Work on your computer
 
+1. [Install VS Code](https://code.visualstudio.com/download)
 1. [Install git](https://github.com/git-guides/install-git)
 1. [Install Docker](https://docs.docker.com/engine/install/)
-1. [Install VS Code](https://code.visualstudio.com/download)
-1. Clone this repository: `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
-1. Open the repository in VS Code: `code scipy-vscode-tutorial`
+1. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
+1. Open the repository in VS Code `code scipy-vscode-tutorial`
 
 You should now have the repository open in your local VS Code instance.
 
 ## Tutorial outline
 
 With VS Code ready to go, it's time to jump into the [tutorial outline](outline.md).
+
 
 ## Structure of this repository
 
