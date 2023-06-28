@@ -7,3 +7,4 @@ dependencies:
   - pip  # if you need more packages installed from pip 
   - pip:
     - myst-nb
+    - jupyter-book
