@@ -2,8 +2,18 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+root: README
+parts:
+  # - caption: Home
+  #   numbered: False
+  #   chapters:
+  #   - file: README
+  - caption: Chapters
+    numbered: True
+    chapters:
+    - file: 1-basics
+    - file: 2-devtips
+    - file: 3-remote
+    - file: 4-collaboration
+    - file: demo.ipynb
+    
