@@ -1,0 +1,12 @@
+name: tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel # required for jupyter notebook in VS Code
+  - matplotlib
+  - numpy
+  - pip  # if you need more packages installed from pip 
+  - pip:
+    - myst-nb
+    - jupyter-book
