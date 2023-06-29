@@ -1,0 +1,35 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: "Meet your coding best friend: VS Code💖"
+author: SciPy 2023
+logo: static/logo-light.png
+# Auto-exclude files not in the toc
+only_build_toc_files: false
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", sample_files, .devcontainer, .gitignore]
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: tutorial.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - static/references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/crazy4pi314/scipy-vscode-tutorial  # Online location of your book
+  # path_to_book:   # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
