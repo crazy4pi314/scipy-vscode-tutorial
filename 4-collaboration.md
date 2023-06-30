@@ -14,31 +14,47 @@ kernelspec:
 
 # Working together, but make it fast
 
-**Coding but faster** - We’ll do some exercises to show you how to speed up your coding practice.
+## Coding but faster
 
-- Keyboard shortcuts
-- Bring your keymaps: vim/emacs/sublime/…
-- Snippet extension
+We’ll do some exercises to show you how to speed up your coding practice.
 
-**Collaboration** - Here we’ll pair you up with someone else and go through some pair programming and code review exercises enabled by some powerful VS Code extensions. This exercise will require you to have a GitHub account.
+### Keyboard shortcuts
 
-- Pair programming with Live Share extension
-- GitHub PR review extension
+### Bring your keymaps: vim/emacs/sublime/…
 
-**Exercise**: Post a live share, build a new feature together, make commits to your project, open a pull request and review the code.
+### Snippet extension
 
-**Let AI code for you** - Of course, we cannot have a VS Code tutorial without showing this much talked about feature! We’ll go over some exercises to create new code using GitHub CoPilot’s VS Code extension.
+## Collaboration
 
-- GitHub CoPilot: free for students and open-source contributors
-- GitHub CoPilot Labs
+Here we’ll pair you up with someone else and go through some pair programming and code review exercises enabled by some powerful VS Code extensions. This exercise will require you to have a GitHub account.
 
-**It’s Okay To Have Fun!** - Finally, we’ll show you some fun extensions that can help take the edge off of a busy workday.
+### Pair programming with Live Share extension
 
-- Vscode-pets
-- Power Mode
-- Music time
+### GitHub PR review extension
 
-**Wrap-up & Epilogue** - It’s time to close out the tutorial and recap everything we’ve learned so far. We also want to end with some final remarks and recommendations.
+> Exercise: Post a live share, build a new feature together, make commits to your project, open a pull request and review the code.
+
+## Let AI code for you
+
+Of course, we cannot have a VS Code tutorial without showing this much talked about feature! We’ll go over some exercises to create new code using GitHub CoPilot’s VS Code extension.
+
+### GitHub CoPilot: free for students and open-source contributors
+
+### GitHub CoPilot Labs
+
+## It’s Okay To Have Fun!
+
+Finally, we’ll show you some fun extensions that can help take the edge off of a busy workday.
+
+### Vscode-pets
+
+### Power Mode
+
+### Music time
+
+## Wrap-up & Epilogue
+
+It’s time to close out the tutorial and recap everything we’ve learned so far. We also want to end with some final remarks and recommendations.
 
 - Recap of features/lessons
 - Concluding remarks and recommendations

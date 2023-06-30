@@ -1,4 +1,4 @@
-# Meet your coding best friend: VS Code💖
+# Your coding best friend: VS Code💖
 ![Raccon mascot bit in a header image working on a laptop with the title: Meet your coding best friend: VS Code💖](static/image.png)
 
 _A hands-on tutorial on how to get the most out of the world’s most popular Python editor_ 
@@ -6,6 +6,7 @@ _A hands-on tutorial on how to get the most out of the world’s most popular Py
 > Tutorial for [SciPy 2023](https://cfp.scipy.org/2023/talk/RKV3PZ/), 2023-07-10, 13:30–17:30 (America/Chicago), Classroom 103.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/crazy4pi314/scipy-vscode-tutorial?quickstart=1)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://aka.ms/scipy2023)
 
 Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, macOS and in your browser. This tutorial aims at Python programmers of all levels who are already using VS Code or are interested in doing so, and will take them from zero (installing VS Code) to a production setup for Python development. We will cover starter topics, such as customizing the UI and extensions, using code autocomplete, code navigation, debugging, and Jupyter Notebooks. We will also go into advanced use cases, such as remote development, pair programming via Live Share, Dev containers, GitHub Codespaces & more.
 
