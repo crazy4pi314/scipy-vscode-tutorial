@@ -18,7 +18,25 @@ kernelspec:
 
 Learn how to speed up how you navigate through code.
 
-### IntelliSense
+### [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
+
+Have you ever been typing and a popup with an auto-completion or hint pop up in a menu that you could pick from?
+[IntelliSense](https://code.visualstudio.com/docs/editor/intellisense) is a general term for a whole catagory of features like this including: code completion, parameter info, quick info, and member lists.
+In VS Code it will automatically pop up as you type for [supported languages](https://code.visualstudio.com/docs/editor/intellisense#_intellisense-for-your-programming-language) or with `Ctrl+Space` | `Cmd+Space`.
+If you are not sure what the little icons next to certian suggestions mean, you can see a [legend](https://code.visualstudio.com/docs/editor/intellisense#_types-of-completions) in the docs.
+
+![](https://code.visualstudio.com/assets/docs/editor/intellisense/intellisense_docs.gif)
+
+```{tip}
+There are a lot of customization options for how and when for Intellesense popups to open, check them out here and tweak or even turn off to your hearts content ❤️
+```
+
+IntelliSense is not AI generated, it uses language servers and other fancy diagnostic tools to constantly be analyzing your code to make suggestions.
+If you want to try writing code with AI suggestions as well, you can check out [GitHub Copilot](https://code.visualstudio.com/docs/editor/intellisense#_enhance-completions-with-ai) which we will cover TODO.
+
+```{admonition} Exercise
+Try typing some new code in the sample notebook [here](TODO) and see what IntelliSense suggests!
+```
 
 ### Symbol search
 
