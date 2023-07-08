@@ -42,11 +42,12 @@ kernelspec:
 **Exercise**: Create a new virtual environment, install a package with the env create command pallet or the built-in terminal. Then create a new Jupyter notebook or script and import the package.
 
 - Python extension settings: formatters / linters
+  - available as extensions: pylint, flake8, black, autopep8, ...
 
 **Customize your ride** - setting up our environment for Python development
 
 - Customizing Telemetry controls
-- Color themes
+- Color themes: Dark, Colorblind
 - Auto save
 - Settings sync
 - Profiles
