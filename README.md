@@ -21,7 +21,8 @@ After a short while you should have a VS Code window in your browser with the re
 
 This option should work on laptops and tablets alike.
 
-**Note:** by default, the container running your code space will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.
+> Note: GitHub codespaces come with [120 core-hours and 15 GB-months for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) for all GitHub accounts (180 core-hours for verified student accounts).
+By default, the container running your codespace will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.
 
 ### **Option 2:** Work on your computer
 
