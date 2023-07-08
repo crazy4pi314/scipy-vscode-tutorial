@@ -44,3 +44,5 @@ kernelspec:
 - Concluding remarks and recommendations
   - Where to look for more info and learning (docs, release notes, youtube channel)
   - Links on how to build your own VS Code extension
+    - [VSCode extension in 60 seconds](https://www.youtube.com/watch?v=6r8pJjylmR4)
+    - [Building extensions for vscode.dev](https://www.youtube.com/watch?v=sy3TUb_iVJM)

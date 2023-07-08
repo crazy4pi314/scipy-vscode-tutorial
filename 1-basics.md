@@ -27,9 +27,11 @@ kernelspec:
 - Activity bar
   - Open folder
   - Search
+  - Help: `?`
 - Status bar
 - Accessibility (color themes, screen readers, screencast mode, etc.)
 - VS Code terminal (xtermjs)
+- [Navigating without a mouse](https://www.youtube.com/watch?v=dJWJ0hCAkAI)
 
 **Exercise**: clone a repo from GitHub and open in Codespaces (or your preferred platform). We will be working with it for the rest of the tutorial. E.g.: numpy (Python + C extensions, could be interesting for debugging), matplotlib, scipy.
 
@@ -46,7 +48,7 @@ kernelspec:
 
 **Customize your ride** - setting up our environment for Python development
 
-- Customizing Telemetry controls
+- Customizing Telemetry
 - Color themes: Dark, Colorblind
 - Auto save
 - Settings sync
