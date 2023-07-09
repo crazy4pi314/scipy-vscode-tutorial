@@ -4,9 +4,7 @@ channels:
 dependencies:
   - python=3.11
   - ipykernel # required for jupyter notebook in VS Code
-  - matplotlib
-  - numpy
+  - pytest
   - pip  # if you need more packages installed from pip 
   - pip:
-    - myst-nb
-    - jupyter-book
+    - emoji
