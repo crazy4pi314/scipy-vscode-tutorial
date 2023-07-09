@@ -52,6 +52,9 @@ More fun and helpful UI features and settings.
   - [Files default language](https://code.visualstudio.com/docs/languages/overview)
 - [Settings sync](https://code.visualstudio.com/docs/editor/settings-sync)
 - [Profiles](https://code.visualstudio.com/docs/editor/profiles)
+  - [Python Dev profile template](https://code.visualstudio.com/docs/editor/profiles#_python-profile-template)
+  - [Data Science profile template](https://code.visualstudio.com/docs/editor/profiles#_data-science-profile-template)
+  - [Sarah's profile collection](https://dev.to/crazy4pi314/profiles-for-fun-and-profit-how-to-use-profiles-to-customize-vs-code-57hj)
 - [Extensions marketplace](https://code.visualstudio.com/docs/editor/extension-marketplace)
   - Don't see what you need? [Make your own!](https://code.visualstudio.com/api/get-started/your-first-extension)
 
@@ -70,9 +73,6 @@ We will set up an existing Python project and install the necessary extensions. 
   - [Python extension pack by Don Jayamanne](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
   - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
   - formatters / linters: pylint, flake8, black, autopep8, ...
-- Check out some profile templates:
-  - Python Dev
-  - Data Science
 
 > **Exercise**: New Python project from scratch
 >
