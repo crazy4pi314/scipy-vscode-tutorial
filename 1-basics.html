@@ -332,7 +332,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -348,6 +350,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">1.1. Getting started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-anatomy-of-the-vs-code-ui">1.2. An anatomy of the VS Code UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-your-ui">1.3. Customize your UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-for-python-development">1.4. Setting up for Python development</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -359,14 +372,22 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="the-basics-of-python-development-in-vs-code">
 <h1><span class="section-number">1. </span>The basics of Python development in VS Code<a class="headerlink" href="#the-basics-of-python-development-in-vs-code" title="Permalink to this heading">#</a></h1>
-<p><strong>Getting started</strong> -  a brief overview of VS Code and how to install it.</p>
+<section id="getting-started">
+<h2><span class="section-number">1.1. </span>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h2>
+<p>A brief overview of VS Code and how to install it.</p>
 <ul class="simple">
 <li><p>VS Code is the most popular IDE today. Why?</p></li>
-<li><p>Launching VS Code</p></li>
-<li><p>Browser (default)</p></li>
+<li><p>Launching VS Code</p>
+<ul>
 <li><p>Local (Desktop icon / <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">.</span></code>)</p></li>
+<li><p>Browser: Primary option for workshop (<a class="reference external" href="https://vscode.dev/">https://vscode.dev/</a>, <code class="docutils literal notranslate"><span class="pre">.</span></code> on any GitHub page)</p></li>
 </ul>
-<p><strong>An anatomy of the VS Code UI</strong> - how to navigate VS Code’s user interface.</p>
+</li>
+</ul>
+</section>
+<section id="an-anatomy-of-the-vs-code-ui">
+<h2><span class="section-number">1.2. </span>An anatomy of the VS Code UI<a class="headerlink" href="#an-anatomy-of-the-vs-code-ui" title="Permalink to this heading">#</a></h2>
+<p>How to navigate VS Code’s user interface.</p>
 <ul class="simple">
 <li><p>Command Palette / Command center</p></li>
 <li><p>Activity bar</p>
@@ -377,34 +398,77 @@ document.write(`
 </ul>
 </li>
 <li><p>Status bar</p></li>
-<li><p>Accessibility (color themes, screen readers, screencast mode, etc.)</p></li>
-<li><p>VS Code terminal (xtermjs)</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/accessibility">Accessibility</a> (color themes, screen readers, screencast mode, etc.)</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/terminal/advanced">VS Code terminal</a> (xtermjs)</p></li>
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=dJWJ0hCAkAI">Navigating without a mouse</a></p></li>
 </ul>
-<p><strong>Exercise</strong>: clone a repo from GitHub and open in Codespaces (or your preferred platform). We will be working with it for the rest of the tutorial. E.g.: numpy (Python + C extensions, could be interesting for debugging), matplotlib, scipy.</p>
-<p><strong>Setting up your Python project</strong> - We will set up an existing Python project and install the necessary extensions. This piece is fairy quick and self-guided.</p>
+<blockquote>
+<div><p><strong>Exercise</strong>: Explore VS Code acessibility</p>
+<p>Find a repo on GitHub and try opening it either in your browser (press <code class="docutils literal notranslate"><span class="pre">.</span></code> when on repo page). Try navigating around the UI, and turn on some acessability settings and give them a go!</p>
+</div></blockquote>
+</section>
+<section id="customize-your-ui">
+<h2><span class="section-number">1.3. </span>Customize your UI<a class="headerlink" href="#customize-your-ui" title="Permalink to this heading">#</a></h2>
+<p>More fun and helpful UI features and settings.</p>
 <ul class="simple">
-<li><p>Extensions marketplace</p></li>
-<li><p>Find and install Python extension</p></li>
-<li><p>Environment management</p></li>
-</ul>
-<p><strong>Exercise</strong>: Create a new virtual environment, install a package with the env create command pallet or the built-in terminal. Then create a new Jupyter notebook or script and import the package.</p>
-<ul class="simple">
-<li><p>Python extension settings: formatters / linters</p>
+<li><p>Some key settings to check:</p>
 <ul>
-<li><p>available as extensions: pylint, flake8, black, autopep8, …</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/getstarted/telemetry">Customizing Telemetry</a></p></li>
+<li><p>Color themes: Dark, Colorblind</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save">Auto save</a></p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/languages/overview">Files default language</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/settings-sync">Settings sync</a></p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/profiles">Profiles</a></p>
+<ul>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/profiles#_python-profile-template">Python Dev profile template</a></p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/profiles#_data-science-profile-template">Data Science profile template</a></p></li>
+<li><p><a class="reference external" href="https://dev.to/crazy4pi314/profiles-for-fun-and-profit-how-to-use-profiles-to-customize-vs-code-57hj">Sarah’s profile collection</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/extension-marketplace">Extensions marketplace</a></p>
+<ul>
+<li><p>Don’t see what you need? <a class="reference external" href="https://code.visualstudio.com/api/get-started/your-first-extension">Make your own!</a></p></li>
 </ul>
 </li>
 </ul>
-<p><strong>Customize your ride</strong> - setting up our environment for Python development</p>
+<blockquote>
+<div><p><strong>Exercise</strong>: Share your profile</p>
+<p>Either in your local or browser-based VS Code, try customizing some settings, themes, etc. either from a blank profile or one of the templates. Then export your current editor config as a gist (or locally if you prefer). If you have the URL for your profile gist, add it to the <a class="reference external" href="https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17">discussion page</a>.
+Try making a profile for presenting/screencasting or maybe a distraction-free writing space and take turns sharing all your cool new profiles with your team 😄</p>
+</div></blockquote>
+</section>
+<section id="setting-up-for-python-development">
+<h2><span class="section-number">1.4. </span>Setting up for Python development<a class="headerlink" href="#setting-up-for-python-development" title="Permalink to this heading">#</a></h2>
+<p>We will set up a Python project and install the necessary extensions. This piece is fairy quick and self-guided.</p>
 <ul class="simple">
-<li><p>Customizing Telemetry</p></li>
-<li><p>Color themes: Dark, Colorblind</p></li>
-<li><p>Auto save</p></li>
-<li><p>Settings sync</p></li>
-<li><p>Profiles</p></li>
-<li><p>Files default language</p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com/docs/python/environments#_creating-environments">Python Environments in VS Code</a></p>
+<ul>
+<li><p>Default intrepreter settings</p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager">Python environment manager</a></p></li>
 </ul>
+</li>
+<li><p>Common Python extensions</p>
+<ul>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack">Python extension pack by Don Jayamanne</a></p></li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter">Jupyter</a></p></li>
+<li><p>formatters / linters: pylint, flake8, black, autopep8, …</p></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<div><p><strong>Exercise</strong>: New Python project from scratch</p>
+<p>In the Codespace for this workshop or locally (in a Dev Container) on your machine, use VS Code to create a new virtual environment, install the <code class="docutils literal notranslate"><span class="pre">emoji</span></code> packages with the <code class="docutils literal notranslate"><span class="pre">Python:</span> <span class="pre">Create</span> <span class="pre">Environment</span></code> command from the command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s):</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">emoji</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">emoji</span><span class="o">.</span><span class="n">emojize</span><span class="p">(</span><span class="s2">&quot;Meet your coding best friend: VS Code :red_heart:&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -465,6 +529,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">1.1. Getting started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-anatomy-of-the-vs-code-ui">1.2. An anatomy of the VS Code UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-your-ui">1.3. Customize your UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-for-python-development">1.4. Setting up for Python development</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
