@@ -355,10 +355,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">1.1. Getting started</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-anatomy-of-the-vs-code-ui">1.2. An anatomy of the VS Code UI</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-your-ui">1.3. Customize your UI</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-for-python-development">1.4. Setting up for Python development</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#some-facts-figures">1.1. Some facts &amp; figures</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">1.2. Getting started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-anatomy-of-the-vs-code-ui">1.3. An anatomy of the VS Code UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-your-ui">1.4. Customize your UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-for-python-development">1.5. Setting up for Python development</a></li>
 </ul>
             </nav>
         </div>
@@ -372,11 +373,67 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="the-basics-of-python-development-in-vs-code">
 <h1><span class="section-number">1. </span>The basics of Python development in VS Code<a class="headerlink" href="#the-basics-of-python-development-in-vs-code" title="Permalink to this heading">#</a></h1>
+<section id="some-facts-figures">
+<h2><span class="section-number">1.1. </span>Some facts &amp; figures<a class="headerlink" href="#some-facts-figures" title="Permalink to this heading">#</a></h2>
+<ul>
+<li><p><a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Surveys</a>: VS Code is the most popular integrated development environment (IDE) since 2018.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Year</p></th>
+<th class="head"><p>VS Code*</p></th>
+<th class="head"><p>Rank</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2015</p></td>
+<td><p>Release</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-odd"><td><p>2016</p></td>
+<td><p>7%</p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-even"><td><p>2017</p></td>
+<td><p>23%</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>2018</p></td>
+<td><p>35%</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>2019</p></td>
+<td><p>51%</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>2020</p></td>
+<td><p>-</p></td>
+<td><p>-</p></td>
+</tr>
+<tr class="row-even"><td><p>2021</p></td>
+<td><p>71%</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>2022</p></td>
+<td><p>74%</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>2023</p></td>
+<td><p>74%</p></td>
+<td><p>1</p></td>
+</tr>
+</tbody>
+</table>
+<p>*Percentage of respondents using VS Code as a developer environment (multiple answers possible).</p>
+</li>
+<li><p><a class="reference external" href="https://octoverse.github.com/2022/state-of-open-source">2022 State of the Octoverse</a>: <a class="reference external" href="https://github.com/microsoft/vscode">github.com/microsoft/vscode</a> is <code class="docutils literal notranslate"><span class="pre">#1</span></code> repository on GitHub by number of contributors</p></li>
+<li><p>The <a class="reference external" href="https://marketplace.visualstudio.com/search?target=VSCode&amp;category=All%20categories&amp;sortBy=Installs">VS Code Marketplace</a> has 49k extensions as of July 2023</p></li>
+</ul>
+<p>What brought <em>us</em> to VS Code?</p>
+</section>
 <section id="getting-started">
-<h2><span class="section-number">1.1. </span>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.2. </span>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h2>
 <p>A brief overview of VS Code and how to install it.</p>
 <ul class="simple">
-<li><p>VS Code is the most popular IDE today. Why?</p></li>
 <li><p>Launching VS Code</p>
 <ul>
 <li><p>Local (Desktop icon / <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">.</span></code>)</p></li>
@@ -386,7 +443,7 @@ document.write(`
 </ul>
 </section>
 <section id="an-anatomy-of-the-vs-code-ui">
-<h2><span class="section-number">1.2. </span>An anatomy of the VS Code UI<a class="headerlink" href="#an-anatomy-of-the-vs-code-ui" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.3. </span>An anatomy of the VS Code UI<a class="headerlink" href="#an-anatomy-of-the-vs-code-ui" title="Permalink to this heading">#</a></h2>
 <p>How to navigate VS Code’s user interface.</p>
 <ul class="simple">
 <li><p>Command Palette / Command center</p></li>
@@ -408,7 +465,7 @@ document.write(`
 </div></blockquote>
 </section>
 <section id="customize-your-ui">
-<h2><span class="section-number">1.3. </span>Customize your UI<a class="headerlink" href="#customize-your-ui" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.4. </span>Customize your UI<a class="headerlink" href="#customize-your-ui" title="Permalink to this heading">#</a></h2>
 <p>More fun and helpful UI features and settings.</p>
 <ul class="simple">
 <li><p>Some key settings to check:</p>
@@ -440,7 +497,7 @@ Try making a profile for presenting/screencasting or maybe a distraction-free wr
 </div></blockquote>
 </section>
 <section id="setting-up-for-python-development">
-<h2><span class="section-number">1.4. </span>Setting up for Python development<a class="headerlink" href="#setting-up-for-python-development" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">1.5. </span>Setting up for Python development<a class="headerlink" href="#setting-up-for-python-development" title="Permalink to this heading">#</a></h2>
 <p>We will set up a Python project and install the necessary extensions. This piece is fairy quick and self-guided.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://code.visualstudio.com/docs/python/environments#_creating-environments">Python Environments in VS Code</a></p>
@@ -538,10 +595,11 @@ Try making a profile for presenting/screencasting or maybe a distraction-free wr
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">1.1. Getting started</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-anatomy-of-the-vs-code-ui">1.2. An anatomy of the VS Code UI</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-your-ui">1.3. Customize your UI</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-for-python-development">1.4. Setting up for Python development</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#some-facts-figures">1.1. Some facts &amp; figures</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started">1.2. Getting started</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#an-anatomy-of-the-vs-code-ui">1.3. An anatomy of the VS Code UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#customize-your-ui">1.4. Customize your UI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-for-python-development">1.5. Setting up for Python development</a></li>
 </ul>
   </nav></div>
 
