@@ -16,7 +16,7 @@ Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, 
 
 1. [Install VS Code](https://code.visualstudio.com/download)
 1. [Install git](https://github.com/git-guides/install-git)
-1. [Install Docker](https://docs.docker.com/engine/install/)
+1. [Install Docker](https://docs.docker.com/engine/install/) (optional, for DevContainers)
 1. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
 1. Open the repository in VS Code `code scipy-vscode-tutorial`
 
