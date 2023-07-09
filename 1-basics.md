@@ -27,9 +27,11 @@ kernelspec:
 - Activity bar
   - Open folder
   - Search
+  - Help: `?`
 - Status bar
 - Accessibility (color themes, screen readers, screencast mode, etc.)
 - VS Code terminal (xtermjs)
+- [Navigating without a mouse](https://www.youtube.com/watch?v=dJWJ0hCAkAI)
 
 **Exercise**: clone a repo from GitHub and open in Codespaces (or your preferred platform). We will be working with it for the rest of the tutorial. E.g.: numpy (Python + C extensions, could be interesting for debugging), matplotlib, scipy.
 
@@ -42,11 +44,12 @@ kernelspec:
 **Exercise**: Create a new virtual environment, install a package with the env create command pallet or the built-in terminal. Then create a new Jupyter notebook or script and import the package.
 
 - Python extension settings: formatters / linters
+  - available as extensions: pylint, flake8, black, autopep8, ...
 
 **Customize your ride** - setting up our environment for Python development
 
-- Customizing Telemetry controls
-- Color themes
+- Customizing Telemetry
+- Color themes: Dark, Colorblind
 - Auto save
 - Settings sync
 - Profiles
