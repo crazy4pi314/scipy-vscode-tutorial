@@ -1,17 +1,3 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Interacting with remote resources
 
 **Work where you want to** - Here we will go over some ways on how to work with VS Code on any device and how you can transfer your settings from your local editor. This can be helpful when on-the-go or if you want to make your project easily accessible without any installation requirements. We’ll cover basic tools you will need to develop on a remote resource, such as a cloud instance for compute-heavy workloads.
