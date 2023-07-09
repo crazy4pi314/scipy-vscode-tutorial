@@ -44,6 +44,12 @@
 - Pre-commit hooks
 - GitHub actions (extensions to run them locally)
 
+> **Exercise** Sign our yearbook!
+>
+> 1. Edit the file `yearbook2023.md` and add your favorite VS Code tip you've learned so far. Sign it with your GitHub handle.
+> 2. Create a new branch using the menu `Branch` > `Create branch`, and name it `<your username>/yearbook-2023`.
+> 3. Commit your changes to your new branch and push the changes using `Commit & Push`.
+
 **Documentation** - Don't forget to document your work! Here we'll go over some tools in VS Code and GitHub to level up your docs.
 
 - Sphinx + readthedocs
