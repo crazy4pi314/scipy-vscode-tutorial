@@ -18,6 +18,7 @@ kernelspec:
 
 The modular design of VS Code lets you choose where to run the user interface and the backend independently. Let's understand how this came to be.
 
+
 - [History](history.md)
 - [Basic architecture](architecture.md)
 

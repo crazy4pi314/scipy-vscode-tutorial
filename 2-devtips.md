@@ -17,17 +17,21 @@ kernelspec:
 **Code navigation** - Learn how to speed up how you navigate through code.
 
 - IntelliSense
-- Symbol search
+- Symbol search (`@`, `@:`)
+- [Balancing inward/outward](https://www.youtube.com/watch?v=NwqhFb4B5LU)
 - Multi-line editing
 - Find references
 - Regex search
 - Code transform
+- Text selection
+  - Select left/right: Ctrl+shift+arrow
+  - Box select: alt
 
 **Running and testing code** - Now that we finally know our way around the editor it’s time to write and test some code! Here we’ll go through a few exercises that let you test the code you’ve written in the previous exercise and debug it.
 
 - Shift + enter
-- YAML extension
-- Code runner extension
+- YAML extension + json/yaml schema = 💖
+- Play button
 - Unit tests extension
 - Debugger
 
@@ -51,4 +55,4 @@ kernelspec:
 - Jupyter notebooks: coding, testing and debugging
 - Data wrangler
 - Database queries
-
+- [Data science profile](https://code.visualstudio.com/docs/editor/profiles#_data-science-profile-template)
