@@ -20,10 +20,12 @@ kernelspec:
 - GitHub Codespaces - Run Python in the browser
 - Remote development extension pack
 - SSH remote extension
+  - Working with multiple VPNs: add shortcut to reload window
 - Automatic port forwarding
 - (Optional) Setting up VS Code with WSL
 - DevContainers
 - Vscode.dev
+  - language servers in the browser: python, TypeScript, JavaScript, ...
 - Jupyter servers
 - Tunneling
 
