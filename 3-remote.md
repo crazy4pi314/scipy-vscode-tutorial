@@ -29,6 +29,7 @@ Developing inside pre-packaged local DevContainers, on a virtual machine in the 
   - Automatic port forwarding (web apps, Jupyter servers)
 - `Remote - Tunnels`: Reach remote machines behind firewalls
 - `DevContainers`: Work inside containers & make your environment reproducible for others
+  - GitHub Codespaces = DevContainers hosted by GitHub
 
 **Exercise**
 Pick a combo of local/host VS Code scenarios, and share with your group, involving them if you can
@@ -39,16 +40,17 @@ Here are some ideas:
 - Start a VS Code server for someone else and let them connect
 - Windows: install WSL, and use [this trick](https://stackoverflow.com/questions/60150466/can-i-ssh-from-wsl-in-visual-studio-code/66048792#66048792) to have VS Code read your SSH config file from the WSL environment
 
-## Github Codespaces
-
-DevContainers hosted by GitHub
 
 ## vscode.dev / github.dev
 Everything runs inside your browser
 
+- Press `.` on any GitHub repo
 - LiveShare
 - Python via [Python for the Web](https://code.visualstudio.com/docs/python/python-web)
-- Press `.` on any GitHub repo
 - Code on your tablet
 - [Continue working on](https://code.visualstudio.com/docs/editor/vscode-web#_continue-working-in-a-different-environment) a different device without having to commit
 
+
+**Exercise**
+
+Start a VS Code server on your machine and connect to it from your browser (same device, or tablet / phone / ...)
