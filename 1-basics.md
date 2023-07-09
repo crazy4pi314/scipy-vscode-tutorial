@@ -1,10 +1,33 @@
 # The basics of Python development in VS Code
 
+## Some facts & figures
+
+- [Stack Overflow Annual Developer Surveys](https://insights.stackoverflow.com/survey): VS Code is the most popular integrated development environment (IDE) since 2018.
+
+  | Year | VS Code* | Rank |
+  |------|----------|------|
+  | 2015 | Release  | -    |
+  | 2016 | 7%       | 13   |
+  | 2017 | 23%      | 5    |
+  | 2018 | 35%      | 1    |
+  | 2019 | 51%      | 1    |
+  | 2020 | -        | -    |
+  | 2021 | 71%      | 1    |
+  | 2022 | 74%      | 1    |
+  | 2023 | 74%      | 1    |
+
+  *Percentage of respondents using VS Code as a developer environment (multiple answers possible).
+
+- [2022 State of the Octoverse](https://octoverse.github.com/2022/state-of-open-source): [github.com/microsoft/vscode](https://github.com/microsoft/vscode) is `#1` repository on GitHub by number of contributors 
+- The [VS Code Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs) has 49k extensions as of July 2023
+
+What brought _us_ to VS Code?
+
 ## Getting started
 
 A brief overview of VS Code and how to install it.
 
-- VS Code is the most popular IDE today. Why?
+
 - Launching VS Code
   - Local (Desktop icon / `code .`)
   - Browser: Primary option for workshop (https://vscode.dev/, `.` on any GitHub page)
