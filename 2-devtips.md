@@ -13,6 +13,14 @@
   - Select left/right: Ctrl+shift+arrow
   - Box select: alt
 
+> **Exercise**: Explore code navigation
+>
+> 1. Create a new folder called "tutorial" and a new file "hello.py" with a function `say_hello` that prints a message using the `emoji` library.
+> 2. Create a new function `my_zen_of_python` that prints out the text of Zen of Python.
+> 3. Replace the word "is" with the word "was". How many keystrokes does it take to make this replacement in the editor?
+> 4. Use regex search to find all sentences that have the pattern `better than \w+`. Replace it with `awesome`.
+> 5. Use Alt+ ↑ / ↓ to move the line "Readability counts." to the top.
+
 **Running and testing code** - Now that we finally know our way around the editor it’s time to write and test some code! Here we’ll go through a few exercises that let you test the code you’ve written in the previous exercise and debug it.
 
 - Shift + enter
