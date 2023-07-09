@@ -60,7 +60,7 @@ More fun and helpful UI features and settings.
 
 > **Exercise**: Share your profile
 >
-> Either in your local or browser-based VS Code, try customizing some settings, themes, etc. and then export your current editor config as a gist (or locally if you prefer). If you have the URL for your profile gist, add it to the [discussion page](https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17).
+> Either in your local or browser-based VS Code, try customizing some settings, themes, etc. either from a blank profile or one of the templates. Then export your current editor config as a gist (or locally if you prefer). If you have the URL for your profile gist, add it to the [discussion page](https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17).
 
 ## Setting up for Python development
 
@@ -76,4 +76,4 @@ We will set up an existing Python project and install the necessary extensions. 
 
 > **Exercise**: New Python project from scratch
 >
-> In the Codespace for this workshop or locally (in a Dev Container) on your machine, Use VS Code to create a new virtual environment, install new packages with the env create command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s).
+> In the Codespace for this workshop or locally (in a Dev Container) on your machine, Use VS Code to create a new virtual environment, install new packages with the `Python: Create Environment` command from the command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s).
