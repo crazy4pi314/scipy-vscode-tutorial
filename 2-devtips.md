@@ -16,8 +16,8 @@
 > **Exercise**: Explore code navigation
 >
 > 1. Create a new file `src/tutorial/hello.py` with a function `say_hello` that prints a message using the `emoji` library.
-> 2. Create a new function `my_zen_of_python` that prints out the text of Zen of Python.
-> 3. Replace the word "is" with the word "was". How many keystrokes does it take to make this replacement in the editor?
+> 2. Output the text of Zen of Python into a file by running `python -c "import this" > src/tutorial/zen_of_python.md`.
+> 3. Open the file and replace the word "is" with the word "was". How many keystrokes does it take to make this replacement in the editor?
 > 4. Use regex search to find all sentences that have the pattern `better than \w+`. Replace it with `awesome`.
 > 5. Use Alt+ ↑ / ↓ to move the line "Readability counts." to the top.
 
