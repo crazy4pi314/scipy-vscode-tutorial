@@ -15,6 +15,7 @@ Developing inside pre-packaged local DevContainers, on a virtual machine in the 
   - Automatic port forwarding (web apps, Jupyter servers)
 - [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server): Reach remote machines behind firewalls
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): Work inside containers & make your environment reproducible for others
+  - Look at the [`devcontainer.json`](.devcontainer/devcontainer.json) in this repository
   - [GitHub Codespaces](https://github.com/features/codespaces) = Dev Containers hosted by GitHub
 
 **Exercise**
