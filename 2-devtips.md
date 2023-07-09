@@ -46,9 +46,11 @@
 
 > **Exercise** Sign our yearbook!
 >
-> 1. Edit the file `yearbook2023.md` and add your favorite VS Code tip you've learned so far. Sign it with your GitHub handle.
-> 2. Create a new branch using the menu `Branch` > `Create branch`, and name it `<your username>/yearbook-2023`.
-> 3. Commit your changes to your new branch and push the changes using `Commit & Push`.
+> 1. Fork the [tutorial repo](https://aka.ms/scipy2023) to your GitHub account
+> 2. Edit the file `yearbook2023.md` and add your favorite VS Code tip you've learned so far. Sign it with your GitHub handle.
+> 3. Create a new branch using the menu `Branch` > `Create branch`, and name it `<your username>/yearbook-2023`.
+> 4. Commit your changes to your new branch and push the changes using `Commit & Push`.
+> 5. Create a PR to the origin repo, either with the GitHub PR extension or via the GitHub web interface so we can review and merge!
 
 **Documentation** - Don't forget to document your work! Here we'll go over some tools in VS Code and GitHub to level up your docs.
 
