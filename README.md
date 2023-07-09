@@ -11,7 +11,18 @@ Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, 
 
 ## Setup Instructions
 
-### **Option 1:** Start instantly in your browser with GitHub Codespaces
+
+### **Option 1:** Work on your computer
+
+1. [Install VS Code](https://code.visualstudio.com/download)
+1. [Install git](https://github.com/git-guides/install-git)
+1. [Install Docker](https://docs.docker.com/engine/install/)
+1. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
+1. Open the repository in VS Code `code scipy-vscode-tutorial`
+
+You should now have the repository open in your local VS Code instance.
+
+### **Option 2:** Start instantly in your browser with GitHub Codespaces
 
 1. [Create a free GitHub account](https://github.com/join) if you don't have one already
 
@@ -24,20 +35,10 @@ This option should work on laptops and tablets alike.
 > Note: GitHub codespaces come with [120 core-hours and 15 GB-months for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) for all GitHub accounts (180 core-hours for verified student accounts).
 By default, the container running your codespace will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.
 
-### **Option 2:** Work on your computer
-
-1. [Install VS Code](https://code.visualstudio.com/download)
-1. [Install git](https://github.com/git-guides/install-git)
-1. [Install Docker](https://docs.docker.com/engine/install/)
-1. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
-1. Open the repository in VS Code `code scipy-vscode-tutorial`
-
-You should now have the repository open in your local VS Code instance.
-
 ### **Option 3:** Follow along on vscode.dev
 
 If neither option 1 nor 2 works for you, you can still shadow the presenters in a read-only [LiveShare](https://code.visualstudio.com/learn/collaboration/live-share) session in your web browser.
-Contrary to option 1 this does not require a GitHub account - all you need is a web browser.
+Contrary to option 2 this does not require a GitHub account - all you need is a web browser.
 
 We will share a https://vscode.dev/liveshare link at the start of the session.
 When opening the link, select "Continue on web" and "Continue as anonymous".
