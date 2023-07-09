@@ -14,15 +14,7 @@ kernelspec:
 
 # Working together, but make it fast
 
-## Coding but faster
 
-We’ll do some exercises to show you how to speed up your coding practice.
-
-### Keyboard shortcuts
-
-### Bring your keymaps: vim/emacs/sublime/…
-
-### Snippet extension
 
 ## Collaboration
 
@@ -51,6 +43,8 @@ Finally, we’ll show you some fun extensions that can help take the edge off of
 ### Power Mode
 
 ### Music time
+
+### Code tour
 
 ## Wrap-up & Epilogue
 

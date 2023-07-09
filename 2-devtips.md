@@ -54,22 +54,21 @@ Try typing some new code in the sample notebook [here](TODO) and see what Intell
 
 ![](https://code.visualstudio.com/assets/docs/editor/refactoring/rename.png)
 
-```{code-cell} ipython3
-note = "Python syntax highlighting"
-print(note)
-```
+### Snippets
+
+### Keyboard shortcuts
+
+### Bring your keymaps: vim/emacs/sublime/…
+
 
 ## Running and testing code
 
 Now that we finally know our way around the editor it’s time to write and test some code! Here we’ll go through a few exercises that let you test the code you’ve written in the previous exercise and debug it.
 
-### Shift + enter
+### Running in scripts
+- Play button with 
 
-### YAML extension
-
-### Code runner extension
-
-### Unit tests extension
+### [Tests extension](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
 
 ### Debugger
 
@@ -84,6 +83,8 @@ You’ve written some code - it’s time to push it upstream. We’ll go over so
 ### Pre-commit hooks
 
 ### GitHub actions (extensions to run them locally)
+
+### [Gitignore extension](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 
 ## Documentation
 

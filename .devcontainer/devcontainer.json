@@ -30,7 +30,9 @@
 				"ms-vscode-remote.vscode-remote-extensionpack",
 				"GitHub.vscode-pull-request-github",
 				"ms-vscode.live-server",
-				"MS-vsliveshare.vsliveshare"
+				"MS-vsliveshare.vsliveshare",
+				"bierner.docs-view",
+				"codezombiech.gitignore"
 			]
 		}
 	},
