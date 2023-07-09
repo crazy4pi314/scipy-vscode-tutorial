@@ -355,8 +355,8 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-instructions">Setup Instructions</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-start-instantly-in-your-browser-with-github-codespaces"><strong>Option 1:</strong> Start instantly in your browser with GitHub Codespaces</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-work-on-your-computer"><strong>Option 2:</strong> Work on your computer</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-work-on-your-computer"><strong>Option 1:</strong> Work on your computer</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-start-instantly-in-your-browser-with-github-codespaces"><strong>Option 2:</strong> Start instantly in your browser with GitHub Codespaces</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-3-follow-along-on-vscode-dev"><strong>Option 3:</strong> Follow along on vscode.dev</a></li>
 </ul>
 </li>
@@ -384,8 +384,19 @@ document.write(`
 <p>Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, macOS and in your browser. This tutorial aims at Python programmers of all levels who are already using VS Code or are interested in doing so, and will take them from zero (installing VS Code) to a production setup for Python development. We will cover starter topics, such as customizing the UI and extensions, using code autocomplete, code navigation, debugging, and Jupyter Notebooks. We will also go into advanced use cases, such as remote development, pair programming via Live Share, Dev containers, GitHub Codespaces &amp; more.</p>
 <section id="setup-instructions">
 <h2>Setup Instructions<a class="headerlink" href="#setup-instructions" title="Permalink to this heading">#</a></h2>
-<section id="option-1-start-instantly-in-your-browser-with-github-codespaces">
-<h3><strong>Option 1:</strong> Start instantly in your browser with GitHub Codespaces<a class="headerlink" href="#option-1-start-instantly-in-your-browser-with-github-codespaces" title="Permalink to this heading">#</a></h3>
+<section id="option-1-work-on-your-computer">
+<h3><strong>Option 1:</strong> Work on your computer<a class="headerlink" href="#option-1-work-on-your-computer" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://code.visualstudio.com/download">Install VS Code</a></p></li>
+<li><p><a class="reference external" href="https://github.com/git-guides/install-git">Install git</a></p></li>
+<li><p><a class="reference external" href="https://docs.docker.com/engine/install/">Install Docker</a> (optional, for DevContainers)</p></li>
+<li><p>Clone this repository:  <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/crazy4pi314/scipy-vscode-tutorial</span></code></p></li>
+<li><p>Open the repository in VS Code <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">scipy-vscode-tutorial</span></code></p></li>
+</ol>
+<p>You should now have the repository open in your local VS Code instance.</p>
+</section>
+<section id="option-2-start-instantly-in-your-browser-with-github-codespaces">
+<h3><strong>Option 2:</strong> Start instantly in your browser with GitHub Codespaces<a class="headerlink" href="#option-2-start-instantly-in-your-browser-with-github-codespaces" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://github.com/join">Create a free GitHub account</a> if you don’t have one already</p></li>
 <li><p>On the landing page of <a class="reference external" href="https://github.com/crazy4pi314/scipy-vscode-tutorial">this repository</a>, click on the green <em>Code</em> button, and then on the <em>Codespaces</em> tab to create a codespace.</p></li>
@@ -397,21 +408,10 @@ document.write(`
 By default, the container running your codespace will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.</p>
 </div></blockquote>
 </section>
-<section id="option-2-work-on-your-computer">
-<h3><strong>Option 2:</strong> Work on your computer<a class="headerlink" href="#option-2-work-on-your-computer" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p><a class="reference external" href="https://code.visualstudio.com/download">Install VS Code</a></p></li>
-<li><p><a class="reference external" href="https://github.com/git-guides/install-git">Install git</a></p></li>
-<li><p><a class="reference external" href="https://docs.docker.com/engine/install/">Install Docker</a></p></li>
-<li><p>Clone this repository:  <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/crazy4pi314/scipy-vscode-tutorial</span></code></p></li>
-<li><p>Open the repository in VS Code <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">scipy-vscode-tutorial</span></code></p></li>
-</ol>
-<p>You should now have the repository open in your local VS Code instance.</p>
-</section>
 <section id="option-3-follow-along-on-vscode-dev">
 <h3><strong>Option 3:</strong> Follow along on vscode.dev<a class="headerlink" href="#option-3-follow-along-on-vscode-dev" title="Permalink to this heading">#</a></h3>
 <p>If neither option 1 nor 2 works for you, you can still shadow the presenters in a read-only <a class="reference external" href="https://code.visualstudio.com/learn/collaboration/live-share">LiveShare</a> session in your web browser.
-Contrary to option 1 this does not require a GitHub account - all you need is a web browser.</p>
+Contrary to option 2 this does not require a GitHub account - all you need is a web browser.</p>
 <p>We will share a <a class="reference external" href="https://vscode.dev/liveshare">https://vscode.dev/liveshare</a> link at the start of the session.
 When opening the link, select “Continue on web” and “Continue as anonymous”.</p>
 </section>
@@ -529,8 +529,8 @@ There are some additional configuration options in the comments of the <a class=
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup-instructions">Setup Instructions</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-start-instantly-in-your-browser-with-github-codespaces"><strong>Option 1:</strong> Start instantly in your browser with GitHub Codespaces</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-work-on-your-computer"><strong>Option 2:</strong> Work on your computer</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-1-work-on-your-computer"><strong>Option 1:</strong> Work on your computer</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-2-start-instantly-in-your-browser-with-github-codespaces"><strong>Option 2:</strong> Start instantly in your browser with GitHub Codespaces</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-3-follow-along-on-vscode-dev"><strong>Option 3:</strong> Follow along on vscode.dev</a></li>
 </ul>
 </li>
