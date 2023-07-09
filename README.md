@@ -15,10 +15,14 @@ Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, 
 ### **Option 1:** Work on your computer
 
 1. [Install VS Code](https://code.visualstudio.com/download)
-1. [Install git](https://github.com/git-guides/install-git)
-1. [Install Docker](https://docs.docker.com/engine/install/) (optional, for DevContainers)
-1. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
-1. Open the repository in VS Code `code scipy-vscode-tutorial`
+2. Install local development environment
+  - Variant A: Native installation
+    - [Install Git](https://github.com/git-guides/install-git)
+    - [Install Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+    - Note for Windows users: You may want to [install WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and install Git and Miniconda in the Linux subsystem.
+  - Variant B: Use Linux containers. Just [install Docker](https://docs.docker.com/engine/install/)
+3. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
+4. Open the repository in VS Code `code scipy-vscode-tutorial`
 
 You should now have the repository open in your local VS Code instance.
 
