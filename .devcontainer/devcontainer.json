@@ -22,11 +22,15 @@
 			},
 			"extensions": [
 				"ms-python.python",
-				"donjayamanne.python-extension-pack",
 				"ms-toolsai.jupyter",
 				"GitHub.codespaces",
-				"ms-azuretools.vscode-docker",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",
+				"ms-vscode-remote.remote-containers",
+				"njpwerner.autodocstring",
+				"ms-vscode-remote.vscode-remote-extensionpack",
+				"GitHub.vscode-pull-request-github",
+				"ms-vscode.live-server",
+				"MS-vsliveshare.vsliveshare"
 			]
 		}
 	},
