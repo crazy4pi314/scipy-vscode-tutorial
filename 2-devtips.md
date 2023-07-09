@@ -18,6 +18,14 @@ kernelspec:
 
 Learn how to speed up how you navigate through code.
 
+### [Sidebar search]()
+
+Now with more Regex!
+
+### [Multi-line editing](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor)
+
+![](https://code.visualstudio.com/assets/docs/editor/codebasics/multicursor.gif)
+
 ### [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
 
 Have you ever been typing and a popup with an auto-completion or hint pop up in a menu that you could pick from?
@@ -38,15 +46,13 @@ If you want to try writing code with AI suggestions as well, you can check out [
 Try typing some new code in the sample notebook [here](TODO) and see what IntelliSense suggests!
 ```
 
-### Symbol search
+### [Symbol search](https://code.visualstudio.com/Docs/editor/editingevolved#_open-symbol-by-name)
 
-### Multi-line editing
+### [Go To ...](https://code.visualstudio.com/Docs/editor/editingevolved#_go-to-type-definition)
 
-### Find references
+### [Refactoring](https://code.visualstudio.com/docs/editor/refactoring)
 
-### Regex search
-
-### Code transform
+![](https://code.visualstudio.com/assets/docs/editor/refactoring/rename.png)
 
 ```{code-cell} ipython3
 note = "Python syntax highlighting"
