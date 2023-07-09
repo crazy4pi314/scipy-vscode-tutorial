@@ -60,11 +60,12 @@ More fun and helpful UI features and settings.
 
 > **Exercise**: Share your profile
 >
-> Either in your local or browser-based VS Code, try customizing some settings, themes, etc. either from a blank profile or one of the templates. Then export your current editor config as a gist (or locally if you prefer). If you have the URL for your profile gist, add it to the [discussion page](https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17).
+> Either in your local or browser-based VS Code, try customizing some settings, themes, etc. either from a blank profile or one of the templates. Then export your current editor config as a gist (or locally if you prefer). If you have the URL for your profile gist, add it to the [discussion page](https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17). 
+> Try making a profile for presenting/screencasting or maybe a distraction-free writing space and take turns sharing all your cool new profiles with your team 😄
 
 ## Setting up for Python development
 
-We will set up an existing Python project and install the necessary extensions. This piece is fairy quick and self-guided.
+We will set up a Python project and install the necessary extensions. This piece is fairy quick and self-guided.
 
 - [Python Environments in VS Code](https://code.visualstudio.com/docs/python/environments#_creating-environments)
   - Default intrepreter settings
@@ -76,10 +77,12 @@ We will set up an existing Python project and install the necessary extensions. 
 
 > **Exercise**: New Python project from scratch
 >
-> In the Codespace for this workshop or locally (in a Dev Container) on your machine, Use VS Code to create a new virtual environment, install the `emoji` packages with the `Python: Create Environment` command from the command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s):
+> In the Codespace for this workshop or locally (in a Dev Container) on your machine, use VS Code to create a new virtual environment, install the `emoji` packages with the `Python: Create Environment` command from the command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s):
 >
 > ```python
 > import emoji
 > print(emoji.emojize("Meet your coding best friend: VS Code :red_heart:"))
 > ```
+
+>
 ```
