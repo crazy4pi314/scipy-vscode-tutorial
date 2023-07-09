@@ -1,23 +1,8 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Interacting with remote resources
 
 ## Interlude: A bit of history
 
 The modular design of VS Code lets you choose where to run the user interface and the backend independently. Let's understand how this came to be.
-
 
 - [History](history.md)
 - [Basic architecture](architecture.md)
@@ -25,12 +10,12 @@ The modular design of VS Code lets you choose where to run the user interface an
 ## The Remote development extension pack
 Developing inside pre-packaged local DevContainers, on a virtual machine in the cloud, in a GitHub Codespace, and more.
 
-- `WSL`: Windows Subsystem for Linux was VS Code's first remote development scenario
-- `Remote - SSH`: Connect your local VS Code to a remote machine over SSH
+- [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl): Windows Subsystem for Linux was VS Code's first remote development scenario
+- [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh): Connect your local VS Code to a remote machine over SSH
   - Automatic port forwarding (web apps, Jupyter servers)
-- `Remote - Tunnels`: Reach remote machines behind firewalls
-- `DevContainers`: Work inside containers & make your environment reproducible for others
-  - GitHub Codespaces = DevContainers hosted by GitHub
+- [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server): Reach remote machines behind firewalls
+- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): Work inside containers & make your environment reproducible for others
+  - [GitHub Codespaces](https://github.com/features/codespaces) = Dev Containers hosted by GitHub
 
 **Exercise**
 Pick a combo of local/host VS Code scenarios, and share with your group, involving them if you can
