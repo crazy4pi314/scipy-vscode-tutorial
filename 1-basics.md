@@ -76,4 +76,10 @@ We will set up an existing Python project and install the necessary extensions. 
 
 > **Exercise**: New Python project from scratch
 >
-> In the Codespace for this workshop or locally (in a Dev Container) on your machine, Use VS Code to create a new virtual environment, install new packages with the `Python: Create Environment` command from the command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s).
+> In the Codespace for this workshop or locally (in a Dev Container) on your machine, Use VS Code to create a new virtual environment, install the `emoji` packages with the `Python: Create Environment` command from the command pallet or the built-in terminal. Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s):
+>
+> ```python
+> import emoji
+> print(emoji.emojize("Meet your coding best friend: VS Code :red_heart:"))
+> ```
+```
