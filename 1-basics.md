@@ -37,7 +37,7 @@ How to navigate VS Code’s user interface.
 - [VS Code terminal](https://code.visualstudio.com/docs/terminal/advanced) (xtermjs)
 - [Navigating without a mouse](https://www.youtube.com/watch?v=dJWJ0hCAkAI)
 
-> **Exercise**: Explore VS Code acessability
+> **Exercise**: Explore VS Code acessibility
 >
 > Find a repo on GitHub and try opening it either in your browser (press `.` when on repo page). Try navigating around the UI, and turn on some acessability settings and give them a go!
 
