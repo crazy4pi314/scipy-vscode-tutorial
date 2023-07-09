@@ -31,9 +31,9 @@
 
 > **Exercise**: Debug code with tests
 >
-> 1. Create a new folder called "tests" and a new file "test_hello.py".
+> 1. Create a new folder called `tests` and a new file `test_hello.py`.
 > 2. Import the functions you've created in the first exercise using `from tutorial.hello import say_hello` and create a new function `test_say_hello` that calls `say_hello`.
-> 3. Open the "Testing" menu by clicking on the vial icon in the primary side bar, click "Configure Python Tests" and choose "pytest". Pick the "tests" folder.
+> 3. Open the "Testing" menu by clicking on the vial icon in the primary side bar, click "Configure Python Tests" and choose "pytest". Pick the `tests` folder.
 > 4. Run your test by clicking on the "Run Test" ▷ icon.
 > 5. Add a new `name` input argument to the `say_hello` function. Run your test again. Can you fix the bug?
 
