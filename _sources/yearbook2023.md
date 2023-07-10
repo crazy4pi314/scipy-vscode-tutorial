@@ -16,3 +16,4 @@ Sign our yearbook! Add your totally awesome team name and your favorite VS Code 
 - I am pretty new to VS code. It seems like there is a bit of a steep learning curve to figure out some of the cooler features. Favorite aspect thus far: I like that I can run a terminal, test code and run Jupyter session all in one space. - rhiannong123
 - regex search/replace and multiline editing will both be big time savers! @syd-pythonic
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) used to be kind of a bit much when I wanted to just have a `git blame` function, but now they moved it to its own extension option and it's a lot better now. - @anzelpwj
+- Dont leave VCcode in your downloads folder for over a year. -jeffotter
