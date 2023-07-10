@@ -17,6 +17,9 @@ parts:
       file: 2-devtips
     - title: Working remotely
       file: 3-remote
+      sections:
+        - file: history
+        - file: architecture
     - title: Working together
       file: 4-collaboration
     - file: demo.ipynb

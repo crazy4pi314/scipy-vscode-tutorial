@@ -24,15 +24,15 @@
 				"ms-python.python",
 				"ms-toolsai.jupyter",
 				"GitHub.codespaces",
-				"DavidAnson.vscode-markdownlint",
 				"ms-vscode-remote.remote-containers",
+				"codezombiech.gitignore"
+				"DavidAnson.vscode-markdownlint",
 				"njpwerner.autodocstring",
 				"ms-vscode-remote.vscode-remote-extensionpack",
 				"GitHub.vscode-pull-request-github",
-				"ms-vscode.live-server",
 				"MS-vsliveshare.vsliveshare",
-				"bierner.docs-view",
-				"codezombiech.gitignore"
+				"ms-vscode.live-server",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	},

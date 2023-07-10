@@ -169,6 +169,8 @@ The [LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Y
 
 You can use convenient [GitHub actions](https://github.com/marketplace/actions/deploy-to-github-pages) to push [Read the Docs](https://github.com/readthedocs/actions) or GitHub Pages once test built.
 
+### [Markdown linting](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
 
 > **Exercise** Document your code
 >
