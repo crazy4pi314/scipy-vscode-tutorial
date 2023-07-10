@@ -12,6 +12,7 @@ Check out the [good first issues](https://github.com/microsoft/vscode/contribute
 Maybe there is a feature or tool you wish your VS Code setup would have, now is the time to try!
 [Normally the extensions are in Typescript](https://code.visualstudio.com/api/get-started/your-first-extension), but there is [a cool template](https://code.visualstudio.com/api/advanced-topics/python-extension-template) that allows you to use Python to build extensions.
 There is also [a great docs page](https://code.visualstudio.com/api/language-extensions/overview) covering the API VS Code exposes for the Python language server.
+It doesn't have to be super fancy, but see if you can get a demo extension file to share with someone else to try.
 
 ## Containerize your favorite project
 
