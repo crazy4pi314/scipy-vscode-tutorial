@@ -3,7 +3,7 @@
 
 _A hands-on tutorial on how to get the most out of the world’s most popular Python editor_ 
 
-> Tutorial for [SciPy 2023](https://cfp.scipy.org/2023/talk/RKV3PZ/), 2023-07-10, 13:30–17:30 (America/Chicago), Classroom 103.
+> Tutorial for [SciPy 2023](https://cfp.scipy.org/2023/talk/RKV3PZ/), 2023-07-10, 13:30–17:30 (America/Chicago), Classroom 105.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/crazy4pi314/scipy-vscode-tutorial?quickstart=1)
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://aka.ms/scipy2023)
