@@ -1,5 +1,5 @@
 {
-	"name": "Miniconda demo",
+	"name": "SciPy Demo",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
