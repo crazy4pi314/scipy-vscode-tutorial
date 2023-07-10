@@ -15,6 +15,12 @@ Developing inside pre-packaged local DevContainers, on a virtual machine in the 
 - [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh): Connect your local VS Code to a remote machine over SSH
   - Automatic port forwarding (web apps, Jupyter servers)
 - [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server): Reach remote machines behind firewalls
+  - On remote machine, open a terminal and run:
+    ```
+    curl -Lk 'https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64' --output vscode_cli.tar.gz
+    tar -xf vscode_cli.tar.gz
+    ./code tunnel
+    ```
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): Work inside containers & make your environment reproducible for others
   - The [`devcontainer.json`](.devcontainer/devcontainer.json) in this repository follows the [Development Containers standard](https://containers.dev/)
   - [GitHub Codespaces](https://github.com/features/codespaces) = Dev Containers hosted by GitHub
