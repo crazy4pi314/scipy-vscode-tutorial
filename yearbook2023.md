@@ -12,3 +12,4 @@ Sign our yearbook! Add your totally awesome team name and your favorite VS Code 
 
 - What all the buttons in the right-hand menu mean - @jryon
 - I liked learning about the timeline that has both git commits and save points for the files - @bjcubsfan
+- HTRI: the version control tools are neat - @noahbittner
