@@ -23,6 +23,7 @@ Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, 
   - Variant B: Use Linux containers. Just [install Docker](https://docs.docker.com/engine/install/)
 3. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
 4. Open the repository in VS Code `code scipy-vscode-tutorial`
+5. (Docker only) With your repo open in VS Code, install the [Development Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension (if you don't already have it) which will give you command pallet options to re-open the repo in a dev container. 
 
 You should now have the repository open in your local VS Code instance.
 
