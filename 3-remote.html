@@ -426,7 +426,18 @@ Play with different UI/backend scenarios, and share with your group, involving t
 <p>Here are some ideas:</p>
 <ul class="simple">
 <li><p>Contribute a <code class="docutils literal notranslate"><span class="pre">devcontainer.json</span></code> to your favorite repository on GitHub &amp; make it easier for everyone to give the package a try</p></li>
-<li><p>Connect remotely to a machine you typically use a commandline editor like vim/emacs on</p></li>
+<li><p>Connect remotely to a machine you typically use a command line editor like vim/emacs on</p>
+<ul>
+<li><p>For tutorial participants:</p>
+<ul>
+<li><p>Connect to JupyterHub, choose user/password</p></li>
+<li><p>Click New =&gt; Terminal</p></li>
+<li><p>Create a file <code class="docutils literal notranslate"><span class="pre">.ssh/authorized_keys</span></code> and add your SSH public key to it</p></li>
+<li><p>Connect to Hub using <code class="docutils literal notranslate"><span class="pre">jupyter-&lt;username&gt;</span></code> at port 2222</p></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>Windows users: install WSL, and use <a class="reference external" href="https://stackoverflow.com/questions/60150466/can-i-ssh-from-wsl-in-visual-studio-code/66048792#66048792">this trick</a> to have VS Code read your SSH config file from the WSL environment</p></li>
 <li><p>Start a GitHub codespace on the <code class="docutils literal notranslate"><span class="pre">scipy-vscode-tutorial</span></code> repository and connect to it from your local VS Code via “Open Codespace in new Window”</p></li>
 <li><p>Start a VS Code server (<code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">tunnel</span></code>) on your machine and connect from your tablet / let your neighbor connect</p></li>
