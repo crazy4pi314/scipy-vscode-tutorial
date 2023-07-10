@@ -10,4 +10,7 @@ Sign our yearbook! Add your totally awesome team name and your favorite VS Code 
 ![Screenshot of a JSON editor window with a pencil icon in the gutter which has a drop down for the valid setting values for that line.](static/setting-json-tip.png)
 - The [Witch Hazel by Thea Codes](https://marketplace.visualstudio.com/items?itemName=TheaFlowers.witch-hazel) and [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) themes.
 
+- What all the buttons in the right-hand menu mean - @jryon
+- I liked learning about the timeline that has both git commits and save points for the files - @bjcubsfan
+- HTRI: the version control tools are neat - @noahbittner
 - Snippets are fun (confusing fun for now) - @yutik-nn
