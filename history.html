@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>3. Interacting with remote resources &#8212; Meet your coding best friend: VS Code💖</title>
+    <title>Erich Gamma &#8212; Meet your coding best friend: VS Code💖</title>
   
   
   
@@ -61,11 +61,9 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = '3-remote';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'history';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="4. Working together, but make it fast" href="4-collaboration.html" />
-    <link rel="prev" title="2. Scientific Python development tips and tricks" href="2-devtips.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -157,10 +155,10 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapters</span></p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="1-basics.html">1. The basics of Python development in VS Code</a></li>
 <li class="toctree-l1"><a class="reference internal" href="2-devtips.html">2. Scientific Python development tips and tricks</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">3. Interacting with remote resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="3-remote.html">3. Interacting with remote resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together, but make it fast</a></li>
 </ul>
 
@@ -233,7 +231,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/crazy4pi314/scipy-vscode-tutorial/issues/new?title=Issue%20on%20page%20%2F3-remote.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/crazy4pi314/scipy-vscode-tutorial/issues/new?title=Issue%20on%20page%20%2Fhistory.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -263,7 +261,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/3-remote.md" target="_blank"
+      <li><a href="_sources/history.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -345,7 +343,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Interacting with remote resources</h1>
+    <h1>Erich Gamma</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -355,10 +353,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interlude-some-background">3.1. Interlude: some background</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-remote-development-extension-pack">3.2. The Remote development extension pack</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vscode-dev-github-dev">3.3. vscode.dev / github.dev</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Erich Gamma</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#monaco-editor">Monaco Editor</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-desktop-app">VS Code Desktop app</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-license">VS Code - license</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-the-open-source-project">VS Code - the open source project</a></li>
 </ul>
+
             </nav>
         </div>
     </div>
@@ -369,57 +370,84 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="interacting-with-remote-resources">
-<h1><span class="section-number">3. </span>Interacting with remote resources<a class="headerlink" href="#interacting-with-remote-resources" title="Permalink to this heading">#</a></h1>
-<section id="interlude-some-background">
-<h2><span class="section-number">3.1. </span>Interlude: some background<a class="headerlink" href="#interlude-some-background" title="Permalink to this heading">#</a></h2>
-<p>The modular design of VS Code lets you choose where to run the user interface and the backend independently. Let’s understand how this came to be.</p>
+  <section id="erich-gamma">
+<h1><a class="reference external" href="https://en.wikipedia.org/wiki/Erich_Gamma">Erich Gamma</a><a class="headerlink" href="#erich-gamma" title="Permalink to this heading">#</a></h1>
+<p><img alt="gamma" src="_images/gamma.jpg" /></p>
 <ul class="simple">
-<li><p><a class="reference internal" href="history.html"><span class="doc std std-doc">A brief history of VS Code</span></a></p></li>
-<li><p><a class="reference internal" href="architecture.html"><span class="doc std std-doc">VS Code’s extension architecture</span></a></p></li>
+<li><p>Swiss computer scientist</p></li>
+<li><p>Co-author of <a class="reference external" href="https://en.wikipedia.org/wiki/Design_Patterns">“Design Patterns: Elements of Reusable Object-Oriented Software”</a></p></li>
+<li><p>Co-wrote JUnit software testing framework (which helped kickstart test-driven development)</p></li>
+<li><p>Lead designer of the Eclipse platform’s <a class="reference external" href="https://eclipse.dev/jdt/">Java Development Tools (JDT)</a></p></li>
+<li><p>Approached by Microsoft in 2011: How far can we push coding in the browser?</p></li>
 </ul>
 </section>
-<section id="the-remote-development-extension-pack">
-<h2><span class="section-number">3.2. </span>The Remote development extension pack<a class="headerlink" href="#the-remote-development-extension-pack" title="Permalink to this heading">#</a></h2>
-<p>Developing inside pre-packaged local DevContainers, on a virtual machine in the cloud, in a GitHub Codespace, and more.</p>
+<section id="monaco-editor">
+<h1><a class="reference external" href="https://microsoft.github.io/monaco-editor/">Monaco Editor</a><a class="headerlink" href="#monaco-editor" title="Permalink to this heading">#</a></h1>
+<p><img alt="Monaco editor" src="_images/monaco.png" /></p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">WSL</a>: Windows Subsystem for Linux was VS Code’s first remote development scenario</p></li>
-<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote - SSH</a>: Connect your local VS Code to a remote machine over SSH</p>
+<li><p>Lightweight code editor that runs in the browser</p></li>
+<li><p>Used by OneDrive, Internet Explorer F12 tools</p></li>
+<li><p>Early version with some thousands of users, but developers &amp; platform not ready yet</p></li>
+<li><p>2014: Pivot to desktop via node webkit =&gt; VS Code</p></li>
+</ul>
+</section>
+<section id="vs-code-desktop-app">
+<h1>VS Code Desktop app<a class="headerlink" href="#vs-code-desktop-app" title="Permalink to this heading">#</a></h1>
+<ul class="simple">
+<li><p>First released in 04/2015</p></li>
+<li><p>Ships to Windows, Linux, macOS as Electron app (built on top of Chromium and Node.js)</p>
 <ul>
-<li><p>Automatic port forwarding (web apps, Jupyter servers)</p></li>
+<li><p>First Microsoft tool to run on Linux</p></li>
 </ul>
 </li>
-<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server">Remote - Tunnels</a>: Reach remote machines behind firewalls</p></li>
-<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Dev Containers</a>: Work inside containers &amp; make your environment reproducible for others</p>
+<li><p>Written in TypeScript (started around the same time)</p></li>
+<li><p>Only uses standard web APIs, no web frameworks</p></li>
+<li><p>Extensions run in separate processes, talk to the main process via remote procedure calls</p></li>
+<li><p>Novelty: <a class="reference external" href="https://microsoft.github.io/language-server-protocol/">Language server protocol</a> (LSP) for language support</p>
 <ul>
-<li><p>Look at the <a class="reference download internal" download="" href="_downloads/91058cfe83c94e1c3686a94669a88864/devcontainer.json"><span class="xref download myst"><code class="docutils literal notranslate"><span class="pre">devcontainer.json</span></code></span></a> in this repository</p></li>
-<li><p><a class="reference external" href="https://github.com/features/codespaces">GitHub Codespaces</a> = Dev Containers hosted by GitHub</p></li>
+<li><p>talks only about documents and position</p></li>
+<li><p>LSP became a standard, used by many editors</p></li>
 </ul>
 </li>
 </ul>
-<p><strong>Exercise</strong>
-Pick a combo of local/host VS Code scenarios, and share with your group, involving them if you can</p>
-<p>Here are some ideas:</p>
+</section>
+<section id="vs-code-license">
+<h1>VS Code - license<a class="headerlink" href="#vs-code-license" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p>Package maintainers: Create a <code class="docutils literal notranslate"><span class="pre">devcontainer.json</span></code> for your repository &amp; let your neighbor try out your package</p></li>
-<li><p>Start a GitHub codespace on the <code class="docutils literal notranslate"><span class="pre">scipy-vscode-tutorial</span></code> repository and connect to it from your local VS Code via tunnel</p></li>
-<li><p>Start a VS Code server for someone else and let them connect</p></li>
-<li><p>Windows: install WSL, and use <a class="reference external" href="https://stackoverflow.com/questions/60150466/can-i-ssh-from-wsl-in-visual-studio-code/66048792#66048792">this trick</a> to have VS Code read your SSH config file from the WSL environment</p></li>
+<li><p><a class="reference external" href="https://github.com/microsoft/vscode">Source code</a> is MIT licensed</p></li>
+<li><p>Microsoft’s VS Code distribution</p>
+<ul>
+<li><p>adds Microsoft branding</p></li>
+<li><p>turns on telemetry by default</p></li>
+<li><p>provides access to extensions marketplace hosted by Microsoft (some extensions are closed source)</p></li>
+</ul>
+</li>
+<li><p>Alternative distributions:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/VSCodium/vscodium#why">VSCodium</a>: desktop build without Microsoft branding &amp; telemetry, uses <a class="reference external" href="https://open-vsx.org">open-vsx.org marketplace</a></p></li>
+<li><p><a class="reference external" href="https://github.com/coder/code-server">code-server</a>: VS Code in the browser built by <a class="reference external" href="http://coder.com">coder.com</a></p></li>
+<li><p><a class="reference external" href="https://github.com/gitpod-io/openvscode-server">OpenVSCode-server</a>: VS Code in the browser built by Gitpod</p></li>
+<li><p>…</p></li>
+</ul>
+</li>
 </ul>
 </section>
-<section id="vscode-dev-github-dev">
-<h2><span class="section-number">3.3. </span>vscode.dev / github.dev<a class="headerlink" href="#vscode-dev-github-dev" title="Permalink to this heading">#</a></h2>
-<p>Everything runs inside your browser</p>
+<section id="vs-code-the-open-source-project">
+<h1>VS Code - the open source project<a class="headerlink" href="#vs-code-the-open-source-project" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p>Press <code class="docutils literal notranslate"><span class="pre">.</span></code> on any GitHub repo</p></li>
-<li><p>LiveShare</p></li>
-<li><p>Python via <a class="reference external" href="https://code.visualstudio.com/docs/python/python-web">Python for the Web</a></p></li>
-<li><p>Code on your tablet</p></li>
-<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/vscode-web#_continue-working-in-a-different-environment">Continue working on</a> a different device without having to commit</p></li>
+<li><p>&gt;10 years of development, &gt;1M lines of code</p></li>
+<li><p>Thousands of issues opened every month</p>
+<ul>
+<li><p>Team goal: reply within 24 hours</p></li>
 </ul>
-<p><strong>Exercise</strong></p>
-<p>Start a VS Code server on your machine and connect to it from your browser (same device, or tablet / phone / …)</p>
-</section>
+</li>
+<li><p>Team (2020): 25 engineers, 6 program managers, 2 doc writers, 1 designer, 1 marketing, 1 UX researcher</p></li>
+<li><p>Monthly release cycle</p></li>
+</ul>
+<p><img alt="release cycle" src="_images/ship-schedule.png" /></p>
+<ul class="simple">
+<li><p>Watch later: <a class="reference external" href="https://www.youtube.com/watch?v=-Olo7N9xwV8">How we make VS Code in the open</a></p></li>
+</ul>
 </section>
 
     <script type="text/x-thebe-config">
@@ -453,24 +481,6 @@ Pick a combo of local/host VS Code scenarios, and share with your group, involvi
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="2-devtips.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">2. </span>Scientific Python development tips and tricks</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="4-collaboration.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">4. </span>Working together, but make it fast</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div></div>
   
 </div>
@@ -489,10 +499,13 @@ Pick a combo of local/host VS Code scenarios, and share with your group, involvi
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interlude-some-background">3.1. Interlude: some background</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-remote-development-extension-pack">3.2. The Remote development extension pack</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vscode-dev-github-dev">3.3. vscode.dev / github.dev</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Erich Gamma</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#monaco-editor">Monaco Editor</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-desktop-app">VS Code Desktop app</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-license">VS Code - license</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-the-open-source-project">VS Code - the open source project</a></li>
 </ul>
+
   </nav></div>
 
 </div></div>
