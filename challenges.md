@@ -1,7 +1,10 @@
 # Bonus Challenges
 
 If you are looking for more things to try out or are already a pro on the current section, try out one of the suggestions below.
-> Show one of the presenters when you are done for a surprise!
+
+```{tip}
+Show one of the presenters when you are done for a surprise!
+```
 
 ## Make an OSS contribution to VS Code or a VS Code Extension
 

@@ -22,7 +22,10 @@ parts:
         - file: architecture
     - title: Working together
       file: 4-collaboration
-    - title: Bonus challenges
+  - caption: Bonus
+    numbered: False
+    chapters:
+    - title: Challenges
       file: challenges
     - title: 😎 SciPy 2023 yearbook
       file: yearbook2023
