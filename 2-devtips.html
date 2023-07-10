@@ -141,8 +141,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="_static/logo-light.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/logo-light.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="_static/vscode-bit.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/vscode-bit.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -158,10 +158,18 @@ const thebe_selector_output = ".output, .cell_output"
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapters</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="1-basics.html">1. The basics of Python development in VS Code</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">2. Scientific Python development tips and tricks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3-remote.html">3. Interacting with remote resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together, but make it fast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="1-basics.html">1. The basics</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">2. Dev tips and tricks</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="3-remote.html">3. Working remotely</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="history.html">3.4. Erich Gamma</a></li>
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="architecture.html">3.9. VS Code - client/server architecture</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together</a></li>
 <li class="toctree-l1"><a class="reference internal" href="demo.html">5. This is a markdown cell</a></li>
 </ul>
 
@@ -333,7 +341,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -349,6 +359,49 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-navigation">2.1. Code navigation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sidebar-search">2.1.1. Sidebar search</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bring-your-favorite-keymaps-vim-emacs-sublime">2.1.2. Bring your favorite keymaps: vim/emacs/sublime/…</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multi-line-editing">2.1.3. Multi-line editing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#intellisense">2.1.4. IntelliSense</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#symbol-search">2.1.5. Symbol search</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#go-to">2.1.6. Go To …</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#refactoring">2.1.7. Refactoring</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#snippets">2.1.8. Snippets</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-and-testing-code">2.2. Running and testing code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-scripts">2.2.1. Running scripts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#test-browser-extension">2.2.2. Test browser extension</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging">2.2.3. Debugging</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git-and-version-control-in-vs-code">2.3. Git and version control in VS Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-git">2.3.1. General git</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#in-editor-features">2.3.2. In-editor features</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#when-things-go-wrong">2.3.3. When things go wrong 🥲</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#github-pull-request-and-issues-extensions">2.3.4. GitHub Pull Request and Issues extensions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gitignore-extension">2.3.5. Gitignore extension</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">2.4. Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latex-in-vs-code">2.4.1. LaTeX in VS Code!</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-or-similar-static-generator">2.4.2. Sphinx (or similar static generator)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-linting">2.4.3. Markdown linting</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-science-tools">2.5. Data science tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebooks">2.5.1. Jupyter notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hot-of-the-presses-data-wrangler">2.5.2. Hot of the presses: Data wrangler</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -360,22 +413,25 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="scientific-python-development-tips-and-tricks">
 <h1><span class="section-number">2. </span>Scientific Python development tips and tricks<a class="headerlink" href="#scientific-python-development-tips-and-tricks" title="Permalink to this heading">#</a></h1>
-<p><strong>Code navigation</strong> - Learn how to speed up how you navigate through code.</p>
-<ul class="simple">
-<li><p>IntelliSense</p></li>
-<li><p>Symbol search (<code class="docutils literal notranslate"><span class="pre">&#64;</span></code>, <code class="docutils literal notranslate"><span class="pre">&#64;:</span></code>)</p></li>
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=NwqhFb4B5LU">Balancing inward/outward</a></p></li>
-<li><p>Multi-line editing</p></li>
-<li><p>Find references</p></li>
-<li><p>Regex search</p></li>
-<li><p>Code transform</p></li>
-<li><p>Text selection</p>
-<ul>
-<li><p>Select left/right: Ctrl+shift+arrow</p></li>
-<li><p>Box select: alt</p></li>
-</ul>
-</li>
-</ul>
+<section id="code-navigation">
+<h2><span class="section-number">2.1. </span>Code navigation<a class="headerlink" href="#code-navigation" title="Permalink to this heading">#</a></h2>
+<p>Learn how to speed up how you navigate through code.</p>
+<section id="sidebar-search">
+<h3><span class="section-number">2.1.1. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/codebasics#_search-across-files">Sidebar search</a><a class="headerlink" href="#sidebar-search" title="Permalink to this heading">#</a></h3>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/codebasics/search-replace-example.png" /></p>
+<p>Now with more Regex!</p>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/codebasics/case-change-replace.gif" /></p>
+<p>If you want to do some really detailed/contextual searching also check out the <a class="reference external" href="https://code.visualstudio.com/docs/editor/codebasics#_search-editor">Search Editor</a> which allows you to see more context around your search results and open it in a full window:
+<img alt="" src="https://code.visualstudio.com/assets/docs/editor/codebasics/search-editor-overview.png" /></p>
+</section>
+<section id="bring-your-favorite-keymaps-vim-emacs-sublime">
+<h3><span class="section-number">2.1.2. </span>Bring your favorite <a class="reference external" href="https://code.visualstudio.com/docs/getstarted/keybindings#_keymap-extensions">keymaps</a>: vim/emacs/sublime/…<a class="headerlink" href="#bring-your-favorite-keymaps-vim-emacs-sublime" title="Permalink to this heading">#</a></h3>
+<p>Filter the extension marketplace search with <code class="docutils literal notranslate"><span class="pre">&#64;category:&quot;keymaps&quot;</span></code> to see all the ones folks have contributed.</p>
+</section>
+<section id="multi-line-editing">
+<h3><span class="section-number">2.1.3. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor">Multi-line editing</a><a class="headerlink" href="#multi-line-editing" title="Permalink to this heading">#</a></h3>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/codebasics/multicursor.gif" /></p>
+<p>Helpful cheat sheets for keybord shortcuts: <a class="reference external" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a>, <a class="reference external" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Mac</a>, <a class="reference external" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a>.</p>
 <blockquote>
 <div><p><strong>Exercise</strong>: Explore code navigation</p>
 <ol class="arabic simple">
@@ -386,14 +442,68 @@ document.write(`
 <li><p>Use Alt+ ↑ / ↓ to move the line “Readability counts.” to the top.</p></li>
 </ol>
 </div></blockquote>
-<p><strong>Running and testing code</strong> - Now that we finally know our way around the editor it’s time to write and test some code! Here we’ll go through a few exercises that let you test the code you’ve written in the previous exercise and debug it.</p>
-<ul class="simple">
-<li><p>Shift + enter</p></li>
-<li><p>YAML extension + json/yaml schema = 💖</p></li>
-<li><p>Play button</p></li>
-<li><p>Unit tests extension</p></li>
-<li><p>Debugger</p></li>
-</ul>
+</section>
+<section id="intellisense">
+<h3><span class="section-number">2.1.4. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/intellisense">IntelliSense</a><a class="headerlink" href="#intellisense" title="Permalink to this heading">#</a></h3>
+<p>Have you ever been typing and a popup with an auto-completion or hint pop up in a menu that you could pick from?
+<a class="reference external" href="https://code.visualstudio.com/docs/editor/intellisense">IntelliSense</a> is a general term for a whole catagory of features like this including: code completion, parameter info, quick info, and member lists.
+In VS Code it will automatically pop up as you type for <a class="reference external" href="https://code.visualstudio.com/docs/editor/intellisense#_intellisense-for-your-programming-language">supported languages</a> or with <code class="docutils literal notranslate"><span class="pre">Ctrl+Space</span></code> | <code class="docutils literal notranslate"><span class="pre">Cmd+Space</span></code>.
+If you are not sure what the little icons next to certian suggestions mean, you can see a <a class="reference external" href="https://code.visualstudio.com/docs/editor/intellisense#_types-of-completions">legend</a> in the docs.</p>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/intellisense/intellisense_docs.gif" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>There are a lot of customization options for how and when for Intellesense popups to open, check them out here and tweak or even turn off to your hearts content ❤️</p>
+</div>
+<p>IntelliSense is not AI generated, it uses language servers and other fancy diagnostic tools to constantly be analyzing your code to make suggestions.
+If you want to try writing code with AI suggestions as well, you can check out <a class="reference external" href="https://code.visualstudio.com/docs/editor/intellisense#_enhance-completions-with-ai">GitHub Copilot</a> which we will cover in <a class="reference internal" href="4-collaboration.html"><span class="doc std std-doc">Chapter 4</span></a>.</p>
+<div class="admonition-exercise admonition">
+<p class="admonition-title">Exercise</p>
+<p>Try typing some new code in the sample notebook <span class="xref myst">here</span> and see what IntelliSense suggests!</p>
+</div>
+</section>
+<section id="symbol-search">
+<h3><span class="section-number">2.1.5. </span><a class="reference external" href="https://code.visualstudio.com/Docs/editor/editingevolved#_open-symbol-by-name">Symbol search</a><a class="headerlink" href="#symbol-search" title="Permalink to this heading">#</a></h3>
+<p>Helps you look up a particular object/class/method/etc.</p>
+</section>
+<section id="go-to">
+<h3><span class="section-number">2.1.6. </span><a class="reference external" href="https://code.visualstudio.com/Docs/editor/editingevolved#_go-to-type-definition">Go To …</a><a class="headerlink" href="#go-to" title="Permalink to this heading">#</a></h3>
+<p>Quick way to follow clues and solve mysteries.</p>
+</section>
+<section id="refactoring">
+<h3><span class="section-number">2.1.7. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/refactoring">Refactoring</a><a class="headerlink" href="#refactoring" title="Permalink to this heading">#</a></h3>
+<p>If find all + replace won’t work, the refactoring tools like renaming a symbol below are always available.</p>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/refactoring/rename.png" /></p>
+</section>
+<section id="snippets">
+<h3><span class="section-number">2.1.8. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/userdefinedsnippets">Snippets</a><a class="headerlink" href="#snippets" title="Permalink to this heading">#</a></h3>
+<p>Type the name of the snippet or an alias and then <code class="docutils literal notranslate"><span class="pre">tab</span></code> to insert.</p>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/userdefinedsnippets/ajax-snippet.gif" /></p>
+</section>
+</section>
+<section id="running-and-testing-code">
+<h2><span class="section-number">2.2. </span>Running and testing code<a class="headerlink" href="#running-and-testing-code" title="Permalink to this heading">#</a></h2>
+<p>Now that we finally know our way around the editor it’s time to write and test some code! Here we’ll go through a few exercises that let you test the code you’ve written in the previous exercise and debug it.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>One important concept here is understanding what is the current Python interpreter. This can be set from the command pallet, and is the actual install/environment where VS Code will run your code.</p>
+</div>
+<section id="running-scripts">
+<h3><span class="section-number">2.2.1. </span><a class="reference external" href="https://code.visualstudio.com/docs/python/python-tutorial#_run-hello-world">Running scripts</a><a class="headerlink" href="#running-scripts" title="Permalink to this heading">#</a></h3>
+<p>There are a few ways to run Python code in VS Code (other than the terminal 😄):</p>
+<ol class="arabic simple">
+<li><p>Click the Run Python File in Terminal play button in the top-right side of the editor, which opens a terminal and runs it with the selected Python interpreter.</p></li>
+</ol>
+<p><img alt="Using the Run Python File in Terminal button" src="https://code.visualstudio.com/assets/docs/python/tutorial/run-python-file-in-terminal-button.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Right-click anywhere in the editor window and select Run &gt; Python File in Terminal (which saves the file automatically):</p></li>
+<li><p>Select one or more lines, then press Shift+Enter or right-click and select Run Selection/Line in Python Terminal. This command is convenient for testing just a part of a file.</p></li>
+<li><p>From the Command Palette (Ctrl+Shift+P), select the Python: Start REPL command to open a REPL terminal for the currently selected Python interpreter.</p></li>
+</ol>
+</section>
+<section id="test-browser-extension">
+<h3><span class="section-number">2.2.2. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter">Test browser extension</a><a class="headerlink" href="#test-browser-extension" title="Permalink to this heading">#</a></h3>
+<p>Sometimes test files can be overwhelming, this extension can make it easier to look at all of them and supports a variety of test frameworks to use for running tests.</p>
+<p><img alt="" src="https://github.com/kondratyev-nv/vscode-python-test-adapter/raw/HEAD/img/screenshot.png" /></p>
 <blockquote>
 <div><p><strong>Exercise</strong>: Debug code with tests</p>
 <ol class="arabic simple">
@@ -404,13 +514,49 @@ document.write(`
 <li><p>Add a new <code class="docutils literal notranslate"><span class="pre">name</span></code> input argument to the <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> function. Run your test again. Can you fix the bug?</p></li>
 </ol>
 </div></blockquote>
-<p><strong>Git and version control</strong> - You’ve written some code - it’s time to push it upstream. We’ll go over some exercises that let you use the built-in Git tools to interact with the repository we cloned in the previous section.</p>
+</section>
+<section id="debugging">
+<h3><span class="section-number">2.2.3. </span><a class="reference external" href="https://code.visualstudio.com/Docs/editor/debugging">Debugging</a><a class="headerlink" href="#debugging" title="Permalink to this heading">#</a></h3>
+<p>You can start a debug session from the Run + Debug pane on the left.
+If you don’t have a configuration for your code yet, the gear icon can help set some templates up.</p>
+<p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/debugging/debugging_hero.png" /></p>
+</section>
+</section>
+<section id="git-and-version-control-in-vs-code">
+<h2><span class="section-number">2.3. </span>Git and version control in VS Code<a class="headerlink" href="#git-and-version-control-in-vs-code" title="Permalink to this heading">#</a></h2>
+<p>You’ve written some code - it’s time to push it upstream. We’ll go over some exercises that let you use the <a class="reference external" href="https://code.visualstudio.com/docs/sourcecontrol/overview">built-in Git tools</a> to interact with the repository we cloned in the previous section.</p>
+<section id="general-git">
+<h3><span class="section-number">2.3.1. </span>General git<a class="headerlink" href="#general-git" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Git integration: branching, staging, committing, diff in-line</p></li>
-<li><p>Git Lens + integration with Git</p></li>
-<li><p>Pre-commit hooks</p></li>
-<li><p>GitHub actions (extensions to run them locally)</p></li>
+<li><p>checkout,</p></li>
+<li><p>branching,</p></li>
+<li><p>staging,</p></li>
+<li><p>committing, etc.</p></li>
 </ul>
+</section>
+<section id="in-editor-features">
+<h3><span class="section-number">2.3.2. </span>In-editor features<a class="headerlink" href="#in-editor-features" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>diff in-line</p></li>
+<li><p>timeline view</p></li>
+<li><p>gutter indicators</p></li>
+</ul>
+</section>
+<section id="when-things-go-wrong">
+<h3><span class="section-number">2.3.3. </span>When things go wrong 🥲<a class="headerlink" href="#when-things-go-wrong" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>3-way merge editor</p></li>
+<li><p>UI for viewing/managing merge conflicts</p></li>
+<li><p>Diff viewer</p></li>
+</ul>
+</section>
+<section id="github-pull-request-and-issues-extensions">
+<h3><span class="section-number">2.3.4. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github">GitHub Pull Request and Issues extensions</a><a class="headerlink" href="#github-pull-request-and-issues-extensions" title="Permalink to this heading">#</a></h3>
+<p>Stay focused and use all the keybindings you are familiar with by catching up on issues and reviewing PRs directly in VS Code.</p>
+</section>
+<section id="gitignore-extension">
+<h3><span class="section-number">2.3.5. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore">Gitignore extension</a><a class="headerlink" href="#gitignore-extension" title="Permalink to this heading">#</a></h3>
+<p>If you don’t want to go digging/copying <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> files from your last project, this extension can provide ones for a variety of languages with just a click.</p>
 <blockquote>
 <div><p><strong>Exercise</strong> Sign our yearbook!</p>
 <ol class="arabic simple">
@@ -421,12 +567,21 @@ document.write(`
 <li><p>Create a PR to the origin repo, either with the GitHub PR extension or via the GitHub web interface so we can review and merge!</p></li>
 </ol>
 </div></blockquote>
-<p><strong>Documentation</strong> - Don’t forget to document your work! Here we’ll go over some tools in VS Code and GitHub to level up your docs.</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">autoDocstring</span></code> extension</p></li>
-<li><p>Sphinx</p></li>
-<li><p>LaTeX math rendering extension</p></li>
-</ul>
+</section>
+</section>
+<section id="documentation">
+<h2><span class="section-number">2.4. </span>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading">#</a></h2>
+<p>Don’t forget to document your work! Here we’ll go over some tools in VS Code and GitHub to level up your docs.</p>
+<section id="latex-in-vs-code">
+<h3><span class="section-number">2.4.1. </span>LaTeX in VS Code!<a class="headerlink" href="#latex-in-vs-code" title="Permalink to this heading">#</a></h3>
+<p>The <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">LaTeX Workshop</a> extension answered the long-standing question: when would LaTeX work be possible in VS Code?</p>
+</section>
+<section id="sphinx-or-similar-static-generator">
+<h3><span class="section-number">2.4.2. </span>Sphinx (or similar static generator)<a class="headerlink" href="#sphinx-or-similar-static-generator" title="Permalink to this heading">#</a></h3>
+<p>You can use convenient <a class="reference external" href="https://github.com/marketplace/actions/deploy-to-github-pages">GitHub actions</a> to push <a class="reference external" href="https://github.com/readthedocs/actions">Read the Docs</a> or GitHub Pages once test built.</p>
+</section>
+<section id="markdown-linting">
+<h3><span class="section-number">2.4.3. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">Markdown linting</a><a class="headerlink" href="#markdown-linting" title="Permalink to this heading">#</a></h3>
 <blockquote>
 <div><p><strong>Exercise</strong> Document your code</p>
 <ol class="arabic simple">
@@ -436,14 +591,28 @@ document.write(`
 <li><p>(Optional) Install the LaTeX Workshop extension (requires <a class="reference external" href="https://www.tug.org/texlive/">TeX live</a>). Create a new folder <code class="docutils literal notranslate"><span class="pre">docs</span></code> with file <code class="docutils literal notranslate"><span class="pre">about.tex</span></code>. Start writing a page in <a class="reference external" href="https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf">LaTeX</a> and explore the IntelliSense features.</p></li>
 </ol>
 </div></blockquote>
-<p><strong>Data science tools</strong> - After writing your code, let’s put it to use. Here we’ll cover some of VS Code’s specialized features for data science, and install some typical extensions that plug into the scientific Python ecosystem.</p>
+</section>
+</section>
+<section id="data-science-tools">
+<h2><span class="section-number">2.5. </span>Data science tools<a class="headerlink" href="#data-science-tools" title="Permalink to this heading">#</a></h2>
+<p>After writing your code, let’s put it to use. Here we’ll cover some of VS Code’s specialized features for data science, and install some typical extensions that plug into the scientific Python ecosystem.</p>
+<section id="jupyter-notebooks">
+<h3><span class="section-number">2.5.1. </span><a class="reference external" href="https://code.visualstudio.com/docs/datascience/jupyter-notebooks">Jupyter notebooks:</a><a class="headerlink" href="#jupyter-notebooks" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Figures</p></li>
-<li><p>Jupyter notebooks: coding, testing and debugging</p></li>
-<li><p>Data wrangler</p></li>
-<li><p>Database queries</p></li>
-<li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/profiles#_data-science-profile-template">Data science profile</a></p></li>
+<li><p>Running with keyboard shortcuts</p></li>
+<li><p>Customizing UI</p></li>
+<li><p>Outline pane</p></li>
+<li><p>Variable + Data viewer</p></li>
+<li><p>Kernel selection</p></li>
+<li><p>Debugging</p></li>
+<li><p>Notebook diffs</p></li>
+<li><p>Saving + inserting images</p></li>
 </ul>
+</section>
+<section id="hot-of-the-presses-data-wrangler">
+<h3><span class="section-number">2.5.2. </span>Hot of the presses: <a class="reference external" href="https://devblogs.microsoft.com/python/data-wrangler-release/">Data wrangler</a><a class="headerlink" href="#hot-of-the-presses-data-wrangler" title="Permalink to this heading">#</a></h3>
+<p>A new <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler">extension</a> just a few months new that helps with some of that initial data exploration with cool UI which also can capture what manipulations you make and generate the Pandas code needed to reproduce!</p>
+<p><img alt="" src="https://user-images.githubusercontent.com/15910920/222234663-5e8178f8-851f-4326-8719-9d90039ce023.gif" /></p>
 <blockquote>
 <div><p><strong>Exercise</strong> Data Science in VS Code</p>
 <ol class="arabic simple">
@@ -454,6 +623,10 @@ document.write(`
 Can you figure out which plant species and/or plant family is most loved by all bee species recorded?</p></li>
 </ol>
 </div></blockquote>
+<p>Awesome, you made it!
+Now on to <a class="reference internal" href="3-remote.html"><span class="doc std std-doc">Chapter 3 ⏩</span></a></p>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -514,6 +687,55 @@ Can you figure out which plant species and/or plant family is most loved by all 
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-navigation">2.1. Code navigation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sidebar-search">2.1.1. Sidebar search</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bring-your-favorite-keymaps-vim-emacs-sublime">2.1.2. Bring your favorite keymaps: vim/emacs/sublime/…</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multi-line-editing">2.1.3. Multi-line editing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#intellisense">2.1.4. IntelliSense</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#symbol-search">2.1.5. Symbol search</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#go-to">2.1.6. Go To …</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#refactoring">2.1.7. Refactoring</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#snippets">2.1.8. Snippets</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-and-testing-code">2.2. Running and testing code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-scripts">2.2.1. Running scripts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#test-browser-extension">2.2.2. Test browser extension</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging">2.2.3. Debugging</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git-and-version-control-in-vs-code">2.3. Git and version control in VS Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-git">2.3.1. General git</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#in-editor-features">2.3.2. In-editor features</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#when-things-go-wrong">2.3.3. When things go wrong 🥲</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#github-pull-request-and-issues-extensions">2.3.4. GitHub Pull Request and Issues extensions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gitignore-extension">2.3.5. Gitignore extension</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">2.4. Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#latex-in-vs-code">2.4.1. LaTeX in VS Code!</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sphinx-or-similar-static-generator">2.4.2. Sphinx (or similar static generator)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#markdown-linting">2.4.3. Markdown linting</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-science-tools">2.5. Data science tools</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebooks">2.5.1. Jupyter notebooks:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hot-of-the-presses-data-wrangler">2.5.2. Hot of the presses: Data wrangler</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

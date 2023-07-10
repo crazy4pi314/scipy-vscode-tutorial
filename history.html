@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Erich Gamma &#8212; Meet your coding best friend: VS Code💖</title>
+    <title>3.4. Erich Gamma &#8212; Meet your coding best friend: VS Code💖</title>
   
   
   
@@ -64,6 +64,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'history';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3.9. VS Code - client/server architecture" href="architecture.html" />
+    <link rel="prev" title="3. Interacting with remote resources" href="3-remote.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -139,8 +141,8 @@ const thebe_selector_output = ".output, .cell_output"
       
     
     
-    <img src="_static/logo-light.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="_static/logo-light.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="_static/vscode-bit.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/vscode-bit.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
   
   
 </a></div>
@@ -155,11 +157,19 @@ const thebe_selector_output = ".output, .cell_output"
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapters</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="1-basics.html">1. The basics of Python development in VS Code</a></li>
-<li class="toctree-l1"><a class="reference internal" href="2-devtips.html">2. Scientific Python development tips and tricks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="3-remote.html">3. Interacting with remote resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together, but make it fast</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="1-basics.html">1. The basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="2-devtips.html">2. Dev tips and tricks</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="3-remote.html">3. Working remotely</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">3.4. Erich Gamma</a></li>
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="architecture.html">3.9. VS Code - client/server architecture</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together</a></li>
 <li class="toctree-l1"><a class="reference internal" href="demo.html">5. This is a markdown cell</a></li>
 </ul>
 
@@ -354,11 +364,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Erich Gamma</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#monaco-editor">Monaco Editor</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-desktop-app">VS Code Desktop app</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-license">VS Code - license</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-the-open-source-project">VS Code - the open source project</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">3.4. Erich Gamma</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#monaco-editor">3.5. Monaco Editor</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-desktop-app">3.6. VS Code Desktop app</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-license">3.7. VS Code - license</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-the-open-source-project">3.8. VS Code - the open source project</a></li>
 </ul>
 
             </nav>
@@ -372,7 +382,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="erich-gamma">
-<h1><a class="reference external" href="https://en.wikipedia.org/wiki/Erich_Gamma">Erich Gamma</a><a class="headerlink" href="#erich-gamma" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">3.4. </span><a class="reference external" href="https://en.wikipedia.org/wiki/Erich_Gamma">Erich Gamma</a><a class="headerlink" href="#erich-gamma" title="Permalink to this heading">#</a></h1>
 <p><img alt="gamma" src="_images/gamma.jpg" /></p>
 <ul class="simple">
 <li><p>Swiss computer scientist</p></li>
@@ -383,7 +393,7 @@ document.write(`
 </ul>
 </section>
 <section id="monaco-editor">
-<h1><a class="reference external" href="https://microsoft.github.io/monaco-editor/">Monaco Editor</a><a class="headerlink" href="#monaco-editor" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">3.5. </span><a class="reference external" href="https://microsoft.github.io/monaco-editor/">Monaco Editor</a><a class="headerlink" href="#monaco-editor" title="Permalink to this heading">#</a></h1>
 <p><img alt="Monaco editor" src="_images/monaco.png" /></p>
 <ul class="simple">
 <li><p>Lightweight code editor that runs in the browser</p></li>
@@ -393,7 +403,7 @@ document.write(`
 </ul>
 </section>
 <section id="vs-code-desktop-app">
-<h1>VS Code Desktop app<a class="headerlink" href="#vs-code-desktop-app" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">3.6. </span>VS Code Desktop app<a class="headerlink" href="#vs-code-desktop-app" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
 <li><p>First released in 04/2015</p></li>
 <li><p>Ships to Windows, Linux, macOS as Electron app (built on top of Chromium and Node.js)</p>
@@ -413,7 +423,7 @@ document.write(`
 </ul>
 </section>
 <section id="vs-code-license">
-<h1>VS Code - license<a class="headerlink" href="#vs-code-license" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">3.7. </span>VS Code - license<a class="headerlink" href="#vs-code-license" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/microsoft/vscode">Source code</a> is MIT licensed (released 11/2015)</p></li>
 <li><p>Microsoft’s VS Code distribution</p>
@@ -434,7 +444,7 @@ document.write(`
 </ul>
 </section>
 <section id="vs-code-the-open-source-project">
-<h1>VS Code - the open source project<a class="headerlink" href="#vs-code-the-open-source-project" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">3.8. </span>VS Code - the open source project<a class="headerlink" href="#vs-code-the-open-source-project" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
 <li><p>&gt;10 years of development, &gt;1M lines of code</p></li>
 <li><p>Thousands of issues opened every month</p>
@@ -480,6 +490,24 @@ document.write(`
   
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="3-remote.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title"><span class="section-number">3. </span>Interacting with remote resources</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="architecture.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title"><span class="section-number">3.9. </span>VS Code - client/server architecture</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div></div>
   
 </div>
@@ -498,11 +526,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Erich Gamma</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#monaco-editor">Monaco Editor</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-desktop-app">VS Code Desktop app</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-license">VS Code - license</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-the-open-source-project">VS Code - the open source project</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">3.4. Erich Gamma</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#monaco-editor">3.5. Monaco Editor</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-desktop-app">3.6. VS Code Desktop app</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-license">3.7. VS Code - license</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#vs-code-the-open-source-project">3.8. VS Code - the open source project</a></li>
 </ul>
 
   </nav></div>
