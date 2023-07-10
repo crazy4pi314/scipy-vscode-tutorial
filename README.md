@@ -71,3 +71,7 @@ These configuration files work for both local Dev Containers as well as [Codespa
 
 The Docker setup for the Dev Container starts with a miniconda image that then will install whatever conda environment file you have at the root of the repo.
 There are some additional configuration options in the comments of the [Docker](.devcontainer/Dockerfile) and [devcontainer.json](.devcontainer/devcontainer.json) that have some examples of other steps you may want to add to your Dev Container, like what VS Code extensions to install when the container is launched.
+
+## References
+
+* [bees.csv](bees.csv): Diller, S.N., Schaeffer, J.S., Grundel, R., Pavlovic, N.B., McKenna, J.E. Jr., Esselman, P.C., 2020, Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017: U.S. Geological Survey data release, https://doi.org/10.5066/P9QHQNNS.
