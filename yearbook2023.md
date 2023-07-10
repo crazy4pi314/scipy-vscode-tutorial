@@ -3,7 +3,7 @@
 Sign our yearbook! Add your totally awesome team name and your favorite VS Code tip so everyone can see how cool you are 😎
 
 ## The Heisensofties: @ltalirz, @crazy4pi314, @guenp
-## HTRI: @noahbittner - the version control tools are neat 
+## HTRI: the version control tools are neat @noahbittner
 
 - [Indent rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow): use colors to visualize indentation levels.
 - [Gremlins tracker](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins): find that naughty Unicode dash / quote / ... character that breaks your code
