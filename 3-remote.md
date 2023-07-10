@@ -21,6 +21,7 @@ Developing inside pre-packaged local DevContainers, on a virtual machine in the 
     tar -xf vscode_cli.tar.gz
     ./code tunnel
     ```
+  - Connect from Desktop app via `Remote Tunnels: Connect to tunnel`
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers): Work inside containers & make your environment reproducible for others
   - The [`devcontainer.json`](.devcontainer/devcontainer.json) in this repository follows the [Development Containers standard](https://containers.dev/)
   - [GitHub Codespaces](https://github.com/features/codespaces) = Dev Containers hosted by GitHub
