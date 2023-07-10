@@ -58,6 +58,13 @@
 - LaTeX math rendering extension
 - Docusaurus + github pages
 
+> **Exercise** Document your code
+>
+> 1. Configure the `autoDocstring` extension to use `sphinx` as its Docstring format.
+> 2. Add a docstring to the `say_hello` function you created in an earlier exercise.
+> 3. (Optional) Install the LaTeX Workshop extension (requires [TeX live](https://www.tug.org/texlive/)). Create a new folder `docs` with file `about.tex`. Start writing a page in [LaTeX](https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf) and explore the IntelliSense features.
+>
+
 **Data science tools** - After writing your code, let’s put it to use. Here we’ll cover some of VS Code’s specialized features for data science, and install some typical extensions that plug into the scientific Python ecosystem.
 
 - Figures
@@ -65,3 +72,11 @@
 - Data wrangler
 - Database queries
 - [Data science profile](https://code.visualstudio.com/docs/editor/profiles#_data-science-profile-template)
+
+> **Exercise** Data Science in VS Code
+>
+> 1. Create a new Data Science profile in the "gear" menu.
+> 2. Open the `demo.ipynb` Jupyter Notebook.
+> 3. Run the example cells in the notebook.
+> 4. Generate a list of random numbers using `numpy.random.rand()` and create a scatterplot using `matplotlib`.
+>
