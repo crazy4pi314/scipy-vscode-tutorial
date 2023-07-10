@@ -3,7 +3,7 @@
 
 title: "Meet your coding best friend: VS Code💖"
 author: SciPy 2023
-logo: static/logo-light.png
+logo: static/vscode-bit.png
 # Auto-exclude files not in the toc
 only_build_toc_files: false
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", sample_files, .devcontainer, .gitignore]
