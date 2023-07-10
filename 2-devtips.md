@@ -140,6 +140,10 @@ You’ve written some code - it’s time to push it upstream. We’ll go over so
 - UI for viewing/managing merge conflicts
 - Diff viewer
 
+### [GitHub Pull Request and Issues extensions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
+Stay focused and use all the keybindings you are familiar with by catching up on issues and reviewing PRs directly in VS Code.
+
 ### [Gitignore extension](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore)
 
 If you don't want to go digging/copying `.gitignore` files from your last project, this extension can provide ones for a variety of languages with just a click.
@@ -182,6 +186,7 @@ After writing your code, let’s put it to use. Here we’ll cover some of VS Co
 
 - Running with keyboard shortcuts
 - Customizing UI
+- Outline pane
 - Variable + Data viewer
 - Kernel selection
 - Debugging
