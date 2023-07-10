@@ -76,3 +76,14 @@ There are some additional configuration options in the comments of the [Docker](
 ## References
 
 * [bees.csv](data/bees.csv): Diller, S.N., Schaeffer, J.S., Grundel, R., Pavlovic, N.B., McKenna, J.E. Jr., Esselman, P.C., 2020, Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017: U.S. Geological Survey data release, https://doi.org/10.5066/P9QHQNNS.
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
