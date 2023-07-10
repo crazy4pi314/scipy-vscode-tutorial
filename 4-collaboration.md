@@ -21,9 +21,18 @@ It is easy to configure the permissions for guests, as well as tools to focus or
 
 We’ll go over some new extensions/features of VS Code using GitHub CoPilot.
 
-### GitHub CoPilot: free for students and open-source contributors
+### [GitHub CoPilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot): Your AI pair programmer
 
-### GitHub CoPilot Labs
+![](https://user-images.githubusercontent.com/37570492/212964557-8d832278-61bb-4288-a8a7-47f35859e868.gif)
+
+
+Free for students and open-source contributors
+
+### [GitHub CoPilot Labs](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs)
+
+Try out some of the newest features first!
+
+![](https://user-images.githubusercontent.com/8978670/160909091-70c1d70c-2850-4483-91ed-4de87efe5285.gif)
 
 ## Bonus round!
 
@@ -61,5 +70,5 @@ It’s time to close out the tutorial and recap everything we’ve learned so fa
 - [Microsoft Developer Twitch](https://www.twitch.tv/microsoftdeveloper)
 - [VS Code Blog RSS feed](https://code.visualstudio.com/feed.xml)
 
-### Next: Try out a tutorial challenge!
+### Next: Try out a [tutorial challenge!](challenge.md)
 
