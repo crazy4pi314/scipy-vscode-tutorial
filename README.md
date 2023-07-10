@@ -1,4 +1,4 @@
-# Your coding best friend: VS Code💖
+# Meet your coding best friend: VS Code💖
 ![Raccon mascot bit in a header image working on a laptop with the title: Meet your coding best friend: VS Code💖](static/image.png)
 
 _A hands-on tutorial on how to get the most out of the world’s most popular Python editor_ 
