@@ -10,34 +10,9 @@
   - Container hosted by GitHub: GitHub Codespaces
   - Browser: vscode.dev, github.dev (limited functionality)
 
-## Example - VS Code Desktop application with Remote SSH extension
+## Example - VS Code Desktop with Remote SSH extension
 ![VS Code architecture](static/architecture/architecture.png)
-- Local VS Code client version of local client and remote server must match exactly
-
-## Example - VS Code Desktop application with Remote SSH extension
-![VS Code architecture](static/architecture/extensions.png)
----
-
-![VS Code architecture](static/architecture/architecture.png)
-- Local VS Code client version of local client and remote server must match exactly
 - VS Code version of local client and remote server must match exactly
 
----
-
-# VS Code - client/server architecture
-![VS Code architecture](static/architecture/architecture.png)
-- Local VS Code client version of local client and remote server must match exactly
-- VS Code version of local client and remote server must match exactly
-
----
-
----
-
-
----
-
-# Recent developments
-- Native file system APIs in browsers allow Progressive Web Apps (PWAs) to access the file system
-- VS Code = WASI runtime => vscode.dev extensions can run Python in the browser (including debugger)
-
----
+## Overview - Where are the extensions running?
+![Extension hosts](static/architecture/extensions.png)
