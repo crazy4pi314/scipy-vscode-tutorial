@@ -162,6 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="2-devtips.html">2. Scientific Python development tips and tricks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3-remote.html">3. Interacting with remote resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together, but make it fast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">5. This is a markdown cell</a></li>
 </ul>
 
     </div>
@@ -432,7 +433,7 @@ document.write(`
 </section>
 <section id="getting-started">
 <h2><span class="section-number">1.2. </span>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h2>
-<p>A brief overview of VS Code. Please follow the <span class="xref myst">setup instructions</span> before diving in.</p>
+<p>A brief overview of VS Code.</p>
 <ul class="simple">
 <li><p>Launching VS Code</p>
 <ul>
@@ -441,6 +442,9 @@ document.write(`
 </ul>
 </li>
 </ul>
+<blockquote>
+<div><p><strong>Prep exercise</strong>: Follow the setup instructions in the <span class="xref myst">README</span>. For quick set-up we recommend using Codespaces directly from GitHub!</p>
+</div></blockquote>
 </section>
 <section id="an-anatomy-of-the-vs-code-ui">
 <h2><span class="section-number">1.3. </span>An anatomy of the VS Code UI<a class="headerlink" href="#an-anatomy-of-the-vs-code-ui" title="Permalink to this heading">#</a></h2>
@@ -455,13 +459,19 @@ document.write(`
 </ul>
 </li>
 <li><p>Status bar</p></li>
+<li><p>Panel</p></li>
 <li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/accessibility">Accessibility</a> (color themes, screen readers, screencast mode, etc.)</p></li>
 <li><p><a class="reference external" href="https://code.visualstudio.com/docs/terminal/advanced">VS Code terminal</a> (xtermjs)</p></li>
 <li><p><a class="reference external" href="https://www.youtube.com/watch?v=dJWJ0hCAkAI">Navigating without a mouse</a></p></li>
 </ul>
 <blockquote>
 <div><p><strong>Exercise</strong>: Explore VS Code acessibility</p>
-<p>Find a repo on GitHub and try opening it either in your browser (press <code class="docutils literal notranslate"><span class="pre">.</span></code> when on repo page). Try navigating around the UI, and turn on some acessability settings and give them a go!</p>
+<ol class="arabic simple">
+<li><p>Browse to the tutorial repo on GitHub and try opening it either in your browser (press <code class="docutils literal notranslate"><span class="pre">.</span></code> when on repo page) or cloning it locally and opening with <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">.</span></code>.</p></li>
+<li><p>Use the Command Palette to Zoom in and Zoom out (editor and/or view).</p></li>
+<li><p>Search for Color Themes using the Extensions tab. You can find extensions or color themes that are accessible for color vision deficiencies, for example, take a look at the color blind-friendly extensions. If you are using a <a class="reference external" href="https://code.visualstudio.com/docs/editor/accessibility#_screen-readers">screen reader</a> such as NVDA, JAWS and VoiceOver, try using it with VS Code!</p></li>
+<li><p>Use the Command Palette or “gear” icon to change your Color Theme to a non-default one.</p></li>
+</ol>
 </div></blockquote>
 </section>
 <section id="customize-your-ui">
@@ -492,8 +502,14 @@ document.write(`
 </ul>
 <blockquote>
 <div><p><strong>Exercise</strong>: Share your profile</p>
-<p>Either in your local or browser-based VS Code, try customizing some settings, themes, etc. either from a blank profile or one of the templates. Then export your current editor config as a gist (or locally if you prefer). If you have the URL for your profile gist, add it to the <a class="reference external" href="https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17">discussion page</a>.
-Try making a profile for presenting/screencasting or maybe a distraction-free writing space and take turns sharing all your cool new profiles with your team 😄</p>
+<ol class="arabic simple">
+<li><p>Create a new profile or use one of the templates.</p></li>
+<li><p>Either in your local or browser-based VS Code, try customizing some settings, themes, font sizes, etc.</p></li>
+<li><p>Export your current profile as a gist (or locally if you prefer).</p></li>
+<li><p>Copy-paste the URL for your profile gist, and add it to the <a class="reference external" href="https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17">discussion page</a>.</p></li>
+<li><p>Try making a profile for presenting/screencasting or maybe a distraction-free writing space and take turns sharing all your cool new profiles with your team 😄</p></li>
+<li><p>Try importing a profile created by someone else via the <code class="docutils literal notranslate"><span class="pre">Profiles</span></code> &gt; <code class="docutils literal notranslate"><span class="pre">Import</span> <span class="pre">Profile...</span></code> option in the Gear menu! You can find &#64;crazy4pi314’s profiles <a class="reference external" href="https://gist.github.com/crazy4pi314/a3b1157dcd0873d471fb79cf5dffaba4">here</a>.</p></li>
+</ol>
 </div></blockquote>
 </section>
 <section id="setting-up-for-python-development">
@@ -517,10 +533,23 @@ Try making a profile for presenting/screencasting or maybe a distraction-free wr
 <blockquote>
 <div><p><strong>Exercise</strong>: New Python project from scratch</p>
 <ol class="arabic simple">
-<li><p>In the Codespace for this workshop or locally (in a Dev Container) on your machine, use VS Code to create a new virtual environment.</p></li>
-<li><p>Install the <code class="docutils literal notranslate"><span class="pre">emoji</span></code> packages with the <code class="docutils literal notranslate"><span class="pre">Python:</span> <span class="pre">Create</span> <span class="pre">Environment</span></code> command from the command pallet or the built-in terminal.</p></li>
-<li><p>Install the tutorial package by running <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">-e</span> <span class="pre">.</span></code> in the <code class="docutils literal notranslate"><span class="pre">scipy-vscode-tutorial</span></code> folder.</p></li>
-<li><p>Check that you have the intrepreter setup correclty by opening a new Jupyter notebook or script and import the package(s):</p></li>
+<li><p>In the Codespace for this workshop or locally (in a Dev Container) on your machine, create a new virtual environment by running:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>scipy-vscode-tutorial
+conda<span class="w"> </span>install<span class="w"> </span>-n<span class="w"> </span>base<span class="w"> </span>-conda-forge<span class="w"> </span>mamba
+mamba<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-f<span class="w"> </span>environment.yml
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Install the tutorial package by running:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>-e<span class="w"> </span>.
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Use the Command Palette to run the <code class="docutils literal notranslate"><span class="pre">Python:</span> <span class="pre">Select</span> <span class="pre">Interpreter</span></code> command and set it to the <code class="docutils literal notranslate"><span class="pre">tutorial</span></code> environment you just created.</p></li>
+<li><p>Use the Command Palette to create a new Interactive Window using the <code class="docutils literal notranslate"><span class="pre">Jupyter:</span> <span class="pre">Create</span> <span class="pre">Interactive</span> <span class="pre">Window</span></code> command.</p></li>
+<li><p>Run the following lines to test your environment:</p></li>
 </ol>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">tutorial</span> <span class="kn">import</span> <span class="n">welcome</span>
 <span class="n">welcome</span><span class="p">()</span>

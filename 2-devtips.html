@@ -162,6 +162,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">2. Scientific Python development tips and tricks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3-remote.html">3. Interacting with remote resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together, but make it fast</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">5. This is a markdown cell</a></li>
 </ul>
 
     </div>
@@ -378,8 +379,8 @@ document.write(`
 <blockquote>
 <div><p><strong>Exercise</strong>: Explore code navigation</p>
 <ol class="arabic simple">
-<li><p>Create a new file <code class="docutils literal notranslate"><span class="pre">src/tutorial/hello.py</span></code> with a function <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> that prints a message using the <code class="docutils literal notranslate"><span class="pre">emoji</span></code> library.</p></li>
-<li><p>Output the text of Zen of Python into a file by running <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">this&quot;</span> <span class="pre">&gt;</span> <span class="pre">src/tutorial/zen_of_python.md</span></code>.</p></li>
+<li><p>Create a new file <code class="docutils literal notranslate"><span class="pre">hello.py</span></code> in the <code class="docutils literal notranslate"><span class="pre">tutorial</span></code> package with a function <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> that prints a message using the <code class="docutils literal notranslate"><span class="pre">emoji</span></code> library. Use IntelliSense to find the right function and order of input arguments from the library.</p></li>
+<li><p>Output the text of Zen of Python into a file by running <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">this&quot;</span> <span class="pre">&gt;</span> <span class="pre">zen_of_python.md</span></code>.</p></li>
 <li><p>Open the file and replace the word “is” with the word “was”. How many keystrokes does it take to make this replacement in the editor?</p></li>
 <li><p>Use regex search to find all sentences that have the pattern <code class="docutils literal notranslate"><span class="pre">\w+</span> <span class="pre">better</span> <span class="pre">than</span> <span class="pre">\w+.</span></code>. Replace it with <code class="docutils literal notranslate"><span class="pre">is</span> <span class="pre">awesome!</span></code>.</p></li>
 <li><p>Use Alt+ ↑ / ↓ to move the line “Readability counts.” to the top.</p></li>
@@ -398,7 +399,7 @@ document.write(`
 <ol class="arabic simple">
 <li><p>Create a new folder called <code class="docutils literal notranslate"><span class="pre">tests</span></code> and a new file <code class="docutils literal notranslate"><span class="pre">test_hello.py</span></code>.</p></li>
 <li><p>Import the functions you’ve created in the first exercise using <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">tutorial.hello</span> <span class="pre">import</span> <span class="pre">say_hello</span></code> and create a new function <code class="docutils literal notranslate"><span class="pre">test_say_hello</span></code> that calls <code class="docutils literal notranslate"><span class="pre">say_hello</span></code>.</p></li>
-<li><p>Open the “Testing” menu by clicking on the vial icon in the primary side bar, click “Configure Python Tests” and choose “pytest”. Pick the <code class="docutils literal notranslate"><span class="pre">tests</span></code> folder.</p></li>
+<li><p>Open the “Testing” menu by clicking on the vial icon in the Activity bar, click “Configure Python Tests” and choose “pytest”. Pick the <code class="docutils literal notranslate"><span class="pre">tests</span></code> folder.</p></li>
 <li><p>Run your test by clicking on the “Run Test” ▷ icon.</p></li>
 <li><p>Add a new <code class="docutils literal notranslate"><span class="pre">name</span></code> input argument to the <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> function. Run your test again. Can you fix the bug?</p></li>
 </ol>
@@ -422,10 +423,19 @@ document.write(`
 </div></blockquote>
 <p><strong>Documentation</strong> - Don’t forget to document your work! Here we’ll go over some tools in VS Code and GitHub to level up your docs.</p>
 <ul class="simple">
-<li><p>Sphinx + readthedocs</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">autoDocstring</span></code> extension</p></li>
+<li><p>Sphinx</p></li>
 <li><p>LaTeX math rendering extension</p></li>
-<li><p>Docusaurus + github pages</p></li>
 </ul>
+<blockquote>
+<div><p><strong>Exercise</strong> Document your code</p>
+<ol class="arabic simple">
+<li><p>Configure the <code class="docutils literal notranslate"><span class="pre">autoDocstring</span></code> extension to use <code class="docutils literal notranslate"><span class="pre">sphinx</span></code> as its Docstring format.</p></li>
+<li><p>Add a docstring to the <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> function you created in an earlier exercise.</p></li>
+<li><p>(Optional) Run <code class="docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> to set up your Sphinx documentation and follow the steps in this <a class="reference external" href="https://github.com/melissawm/minimalsphinx">tutorial</a> by &#64;melissawm.</p></li>
+<li><p>(Optional) Install the LaTeX Workshop extension (requires <a class="reference external" href="https://www.tug.org/texlive/">TeX live</a>). Create a new folder <code class="docutils literal notranslate"><span class="pre">docs</span></code> with file <code class="docutils literal notranslate"><span class="pre">about.tex</span></code>. Start writing a page in <a class="reference external" href="https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf">LaTeX</a> and explore the IntelliSense features.</p></li>
+</ol>
+</div></blockquote>
 <p><strong>Data science tools</strong> - After writing your code, let’s put it to use. Here we’ll cover some of VS Code’s specialized features for data science, and install some typical extensions that plug into the scientific Python ecosystem.</p>
 <ul class="simple">
 <li><p>Figures</p></li>
@@ -434,6 +444,16 @@ document.write(`
 <li><p>Database queries</p></li>
 <li><p><a class="reference external" href="https://code.visualstudio.com/docs/editor/profiles#_data-science-profile-template">Data science profile</a></p></li>
 </ul>
+<blockquote>
+<div><p><strong>Exercise</strong> Data Science in VS Code</p>
+<ol class="arabic simple">
+<li><p>Create a new Data Science profile.</p></li>
+<li><p>Open the <code class="docutils literal notranslate"><span class="pre">demo.ipynb</span></code> Jupyter Notebook.</p></li>
+<li><p>Run the example cells in the notebook. Try adding a markdown cell and add some text, or add a code cell.</p></li>
+<li><p>Open the example data file <code class="docutils literal notranslate"><span class="pre">data/bees.csv</span></code> using Data Wrangler and explore the dataset (source: <a class="reference external" href="https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd">Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017</a>).
+Can you figure out which plant species and/or plant family is most loved by all bee species recorded?</p></li>
+</ol>
+</div></blockquote>
 </section>
 
     <script type="text/x-thebe-config">

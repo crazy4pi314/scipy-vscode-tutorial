@@ -24,19 +24,20 @@ We end each section with a recap to go over everything we’ve covered and an op
 | 17:00 | 60 min   | [Working together, but make it fast](4-collaboration.md) |
 ## Setup Instructions
 
-
 ### **Option 1:** Work on your computer
 
 1. [Install VS Code](https://code.visualstudio.com/download)
 2. Install local development environment
+
   - Variant A: Native installation
     - [Install Git](https://github.com/git-guides/install-git)
     - [Install Miniconda](https://docs.conda.io/en/latest/miniconda.html)
     - Note for Windows users: You may want to [install WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and install Git and Miniconda in the Linux subsystem.
   - Variant B: Use Linux containers. Just [install Docker](https://docs.docker.com/engine/install/)
+
 3. Clone this repository:  `git clone https://github.com/crazy4pi314/scipy-vscode-tutorial`
 4. Open the repository in VS Code `code scipy-vscode-tutorial`
-5. (Docker only) With your repo open in VS Code, install the [Development Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension (if you don't already have it) which will give you command pallet options to re-open the repo in a dev container. 
+5. (Docker only) With your repo open in VS Code, install the [Development Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension (if you don't already have it) which will give you command pallet options to re-open the repo in a dev container.
 
 You should now have the repository open in your local VS Code instance.
 
@@ -70,3 +71,7 @@ These configuration files work for both local Dev Containers as well as [Codespa
 
 The Docker setup for the Dev Container starts with a miniconda image that then will install whatever conda environment file you have at the root of the repo.
 There are some additional configuration options in the comments of the [Docker](.devcontainer/Dockerfile) and [devcontainer.json](.devcontainer/devcontainer.json) that have some examples of other steps you may want to add to your Dev Container, like what VS Code extensions to install when the container is launched.
+
+## References
+
+* [bees.csv](data/bees.csv): Diller, S.N., Schaeffer, J.S., Grundel, R., Pavlovic, N.B., McKenna, J.E. Jr., Esselman, P.C., 2020, Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017: U.S. Geological Survey data release, https://doi.org/10.5066/P9QHQNNS.
