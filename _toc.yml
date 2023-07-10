@@ -19,5 +19,6 @@ parts:
       file: 3-remote
     - title: Working together
       file: 4-collaboration
+    - title: Challenges
+      file: challenges
     - file: demo.ipynb
-    
