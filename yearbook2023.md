@@ -9,3 +9,4 @@ Sign our yearbook! Add your totally awesome team name and your favorite VS Code 
 - When editing VS Code settings in JSON, there is a pencil in the gutter which shows you a drop-down menu of valid setting values (if appropriate).
 ![Screenshot of a JSON editor window with a pencil icon in the gutter which has a drop down for the valid setting values for that line.](static/setting-json-tip.png)
 - The [Witch Hazel by Thea Codes](https://marketplace.visualstudio.com/items?itemName=TheaFlowers.witch-hazel) and [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) themes.
+- I am pretty new to VS code. It seems like there is a bit of a steep learning curve to figure out some of the cooler features. Favorite aspect thus far: I like that I can run a terminal, test code and run Jupyter session all in one space. - rhiannong123
