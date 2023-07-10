@@ -52,7 +52,7 @@ How to navigate VS Code’s user interface.
 >
 > 1. Browse to the tutorial repo on GitHub and try opening it either in your browser (press `.` when on repo page) or cloning it locally and opening with `code .`.
 > 2. Use the Command Palette to Zoom in and Zoom out (editor and/or view).
-> 3. Search for Color Themes using the Extensions tab. You can find extensions or color themes that are accessible for color vision deficiencies.
+> 3. Search for Color Themes using the Extensions tab. You can find extensions or color themes that are accessible for color vision deficiencies, for example, take a look at the color blind-friendly extensions. If you are using a [screen reader](https://code.visualstudio.com/docs/editor/accessibility#_screen-readers) such as NVDA, JAWS and VoiceOver, try using it with VS Code!
 > 4. Use the Command Palette or "gear" icon to change your Color Theme to a non-default one.
 >
 
