@@ -32,7 +32,12 @@ Play with different UI/backend scenarios, and share with your group, involving t
 Here are some ideas:
 
 - Contribute a `devcontainer.json` to your favorite repository on GitHub & make it easier for everyone to give the package a try
-- Connect remotely to a machine you typically use a commandline editor like vim/emacs on
+- Connect remotely to a machine you typically use a command line editor like vim/emacs on
+  - For tutorial participants: 
+    - Connect to JupyterHub, choose user/password
+    - Click New => Terminal
+    - Create a file `.ssh/authorized_keys` and add your SSH public key to it
+    - Connect to Hub using `jupyter-<username>` at port 2222
 - Windows users: install WSL, and use [this trick](https://stackoverflow.com/questions/60150466/can-i-ssh-from-wsl-in-visual-studio-code/66048792#66048792) to have VS Code read your SSH config file from the WSL environment
 - Start a GitHub codespace on the `scipy-vscode-tutorial` repository and connect to it from your local VS Code via "Open Codespace in new Window"
 - Start a VS Code server (`code tunnel`) on your machine and connect from your tablet / let your neighbor connect
