@@ -1,11 +1,11 @@
 # Interacting with remote resources
 
-## Interlude: A bit of history
+## Interlude: some background
 
 The modular design of VS Code lets you choose where to run the user interface and the backend independently. Let's understand how this came to be.
 
-- [History](history.md)
-- [Basic architecture](architecture.md)
+- [A brief history of VS Code](history.md)
+- [VS Code's basic architecture](architecture.md)
 
 ## The Remote development extension pack
 Developing inside pre-packaged local DevContainers, on a virtual machine in the cloud, in a GitHub Codespace, and more.
