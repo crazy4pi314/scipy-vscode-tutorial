@@ -42,11 +42,11 @@ Here are some ideas:
 Everything runs inside your browser
 
 - Press `.` on any GitHub repo
-- LiveShare
 - [Continue working on](https://code.visualstudio.com/docs/editor/vscode-web#_continue-working-in-a-different-environment) a different device without having to commit
-
+- More "workspace extensions" are coming to vscode.dev
+  - Already there: LiveShare, some language servers, ...
 
 **Exercise**
 
-- Try the new [Python for the Web](https://code.visualstudio.com/docs/python/python-web) directly on [insiders.vscode.dev](https://insiders.vscode.dev/)
 - There are now 3 different ways to make a pull request to a GitHub repository using just your browser. What are they?
+- Try the new [Python for the Web](https://code.visualstudio.com/docs/python/python-web) directly on [insiders.vscode.dev](https://insiders.vscode.dev/)
