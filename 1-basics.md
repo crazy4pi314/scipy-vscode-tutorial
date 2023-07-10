@@ -25,7 +25,7 @@ What brought _us_ to VS Code?
 
 ## Getting started
 
-A brief overview of VS Code and how to install it.
+A brief overview of VS Code. Please follow the [setup instructions](./README.md#setup-instructions) before diving in.
 
 
 - Launching VS Code
