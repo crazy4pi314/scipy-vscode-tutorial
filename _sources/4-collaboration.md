@@ -11,11 +11,11 @@ Time for a team huddle, rubber ducks included!
 Live Share is a way to send anyone a URL and have them join you in your VS Code session.
 It is easy to configure the permissions for guests, as well as tools to focus or request focus for all participants.
 
-> Exercise: Name your team! 
-> 
-> 1. Have one team member post a live share link to their editor to the rest of the group and let folks join.
-> 2. Make sure all team members have text edit access and each person update your individual yearbook entries now with your team name.
-> 3. The Live Share host can then commit, push, and PR the changes from the VS Code UI. Note that commit messages should have co-authors auto-added to commit message if they edited the files as well.
+```{admonition} Exercise: Do it live (share)
+1. Have one team member post a live share link to their editor to the rest of the group and let folks join.
+2. Make sure all team members have text edit access and each person update your individual yearbook entries now with your team name.
+3. The Live Share host can then commit, push, and PR the changes from the VS Code UI. Note that commit messages should have co-authors auto-added to commit message if they edited the files as well.
+```
 
 ## Work with AI for coding
 

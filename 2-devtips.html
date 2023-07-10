@@ -170,7 +170,11 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="4-collaboration.html">4. Working together</a></li>
-<li class="toctree-l1"><a class="reference internal" href="demo.html">5. This is a markdown cell</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Bonus</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="challenges.html">Challenges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="yearbook2023.html">😎 SciPy 2023 yearbook</a></li>
 </ul>
 
     </div>
@@ -432,8 +436,8 @@ document.write(`
 <h3><span class="section-number">2.1.3. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor">Multi-line editing</a><a class="headerlink" href="#multi-line-editing" title="Permalink to this heading">#</a></h3>
 <p><img alt="" src="https://code.visualstudio.com/assets/docs/editor/codebasics/multicursor.gif" /></p>
 <p>Helpful cheat sheets for keybord shortcuts: <a class="reference external" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a>, <a class="reference external" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Mac</a>, <a class="reference external" href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a>.</p>
-<blockquote>
-<div><p><strong>Exercise</strong>: Explore code navigation</p>
+<div class="admonition-exercise-explore-code-navigation admonition">
+<p class="admonition-title">Exercise: Explore code navigation</p>
 <ol class="arabic simple">
 <li><p>Create a new file <code class="docutils literal notranslate"><span class="pre">hello.py</span></code> in the <code class="docutils literal notranslate"><span class="pre">tutorial</span></code> package with a function <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> that prints a message using the <code class="docutils literal notranslate"><span class="pre">emoji</span></code> library. Use IntelliSense to find the right function and order of input arguments from the library.</p></li>
 <li><p>Output the text of Zen of Python into a file by running <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">this&quot;</span> <span class="pre">&gt;</span> <span class="pre">zen_of_python.md</span></code>.</p></li>
@@ -441,7 +445,7 @@ document.write(`
 <li><p>Use regex search to find all sentences that have the pattern <code class="docutils literal notranslate"><span class="pre">\w+</span> <span class="pre">better</span> <span class="pre">than</span> <span class="pre">\w+.</span></code>. Replace it with <code class="docutils literal notranslate"><span class="pre">is</span> <span class="pre">awesome!</span></code>.</p></li>
 <li><p>Use Alt+ ↑ / ↓ to move the line “Readability counts.” to the top.</p></li>
 </ol>
-</div></blockquote>
+</div>
 </section>
 <section id="intellisense">
 <h3><span class="section-number">2.1.4. </span><a class="reference external" href="https://code.visualstudio.com/docs/editor/intellisense">IntelliSense</a><a class="headerlink" href="#intellisense" title="Permalink to this heading">#</a></h3>
@@ -504,8 +508,8 @@ If you want to try writing code with AI suggestions as well, you can check out <
 <h3><span class="section-number">2.2.2. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter">Test browser extension</a><a class="headerlink" href="#test-browser-extension" title="Permalink to this heading">#</a></h3>
 <p>Sometimes test files can be overwhelming, this extension can make it easier to look at all of them and supports a variety of test frameworks to use for running tests.</p>
 <p><img alt="" src="https://github.com/kondratyev-nv/vscode-python-test-adapter/raw/HEAD/img/screenshot.png" /></p>
-<blockquote>
-<div><p><strong>Exercise</strong>: Debug code with tests</p>
+<div class="admonition-exercise-debug-code-with-tests admonition">
+<p class="admonition-title">Exercise: Debug code with tests</p>
 <ol class="arabic simple">
 <li><p>Create a new folder called <code class="docutils literal notranslate"><span class="pre">tests</span></code> and a new file <code class="docutils literal notranslate"><span class="pre">test_hello.py</span></code>.</p></li>
 <li><p>Import the functions you’ve created in the first exercise using <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">tutorial.hello</span> <span class="pre">import</span> <span class="pre">say_hello</span></code> and create a new function <code class="docutils literal notranslate"><span class="pre">test_say_hello</span></code> that calls <code class="docutils literal notranslate"><span class="pre">say_hello</span></code>.</p></li>
@@ -513,7 +517,7 @@ If you want to try writing code with AI suggestions as well, you can check out <
 <li><p>Run your test by clicking on the “Run Test” ▷ icon.</p></li>
 <li><p>Add a new <code class="docutils literal notranslate"><span class="pre">name</span></code> input argument to the <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> function. Run your test again. Can you fix the bug?</p></li>
 </ol>
-</div></blockquote>
+</div>
 </section>
 <section id="debugging">
 <h3><span class="section-number">2.2.3. </span><a class="reference external" href="https://code.visualstudio.com/Docs/editor/debugging">Debugging</a><a class="headerlink" href="#debugging" title="Permalink to this heading">#</a></h3>
@@ -557,8 +561,8 @@ If you don’t have a configuration for your code yet, the gear icon can help se
 <section id="gitignore-extension">
 <h3><span class="section-number">2.3.5. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore">Gitignore extension</a><a class="headerlink" href="#gitignore-extension" title="Permalink to this heading">#</a></h3>
 <p>If you don’t want to go digging/copying <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> files from your last project, this extension can provide ones for a variety of languages with just a click.</p>
-<blockquote>
-<div><p><strong>Exercise</strong> Sign our yearbook!</p>
+<div class="admonition-exercise-sign-our-yearbook admonition">
+<p class="admonition-title">Exercise: Sign our yearbook!</p>
 <ol class="arabic simple">
 <li><p>Fork the <a class="reference external" href="https://aka.ms/scipy2023">tutorial repo</a> to your GitHub account</p></li>
 <li><p>Edit the file <code class="docutils literal notranslate"><span class="pre">yearbook2023.md</span></code> and add your favorite VS Code tip you’ve learned so far. Sign it with your GitHub handle.</p></li>
@@ -566,7 +570,8 @@ If you don’t have a configuration for your code yet, the gear icon can help se
 <li><p>Commit your changes to your new branch and push the changes using <code class="docutils literal notranslate"><span class="pre">Commit</span> <span class="pre">&amp;</span> <span class="pre">Push</span></code>.</p></li>
 <li><p>Create a PR to the origin repo, either with the GitHub PR extension or via the GitHub web interface so we can review and merge!</p></li>
 </ol>
-</div></blockquote>
+</div>
+<p>`</p>
 </section>
 </section>
 <section id="documentation">
@@ -582,15 +587,15 @@ If you don’t have a configuration for your code yet, the gear icon can help se
 </section>
 <section id="markdown-linting">
 <h3><span class="section-number">2.4.3. </span><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint">Markdown linting</a><a class="headerlink" href="#markdown-linting" title="Permalink to this heading">#</a></h3>
-<blockquote>
-<div><p><strong>Exercise</strong> Document your code</p>
+<div class="admonition-exercise-document-your-code admonition">
+<p class="admonition-title">Exercise: Document your code</p>
 <ol class="arabic simple">
 <li><p>Configure the <code class="docutils literal notranslate"><span class="pre">autoDocstring</span></code> extension to use <code class="docutils literal notranslate"><span class="pre">sphinx</span></code> as its Docstring format.</p></li>
 <li><p>Add a docstring to the <code class="docutils literal notranslate"><span class="pre">say_hello</span></code> function you created in an earlier exercise.</p></li>
 <li><p>(Optional) Run <code class="docutils literal notranslate"><span class="pre">sphinx-quickstart</span></code> to set up your Sphinx documentation and follow the steps in this <a class="reference external" href="https://github.com/melissawm/minimalsphinx">tutorial</a> by &#64;melissawm.</p></li>
 <li><p>(Optional) Install the LaTeX Workshop extension (requires <a class="reference external" href="https://www.tug.org/texlive/">TeX live</a>). Create a new folder <code class="docutils literal notranslate"><span class="pre">docs</span></code> with file <code class="docutils literal notranslate"><span class="pre">about.tex</span></code>. Start writing a page in <a class="reference external" href="https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf">LaTeX</a> and explore the IntelliSense features.</p></li>
 </ol>
-</div></blockquote>
+</div>
 </section>
 </section>
 <section id="data-science-tools">
@@ -613,16 +618,16 @@ If you don’t have a configuration for your code yet, the gear icon can help se
 <h3><span class="section-number">2.5.2. </span>Hot of the presses: <a class="reference external" href="https://devblogs.microsoft.com/python/data-wrangler-release/">Data wrangler</a><a class="headerlink" href="#hot-of-the-presses-data-wrangler" title="Permalink to this heading">#</a></h3>
 <p>A new <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler">extension</a> just a few months new that helps with some of that initial data exploration with cool UI which also can capture what manipulations you make and generate the Pandas code needed to reproduce!</p>
 <p><img alt="" src="https://user-images.githubusercontent.com/15910920/222234663-5e8178f8-851f-4326-8719-9d90039ce023.gif" /></p>
-<blockquote>
-<div><p><strong>Exercise</strong> Data Science in VS Code</p>
+<div class="admonition-exercise-data-science-in-vs-code admonition">
+<p class="admonition-title">Exercise: Data Science in VS Code</p>
 <ol class="arabic simple">
 <li><p>Create a new Data Science profile.</p></li>
 <li><p>Open the <code class="docutils literal notranslate"><span class="pre">demo.ipynb</span></code> Jupyter Notebook.</p></li>
 <li><p>Run the example cells in the notebook. Try adding a markdown cell and add some text, or add a code cell.</p></li>
-<li><p>Open the example data file <code class="docutils literal notranslate"><span class="pre">data/bees.csv</span></code> using Data Wrangler and explore the dataset (source: <a class="reference external" href="https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd">Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017</a>).
-Can you figure out which plant species and/or plant family is most loved by all bee species recorded?</p></li>
+<li><p>Open the example data file <code class="docutils literal notranslate"><span class="pre">data/bees.csv</span></code> using Data Wrangler and explore the dataset (source: <a class="reference external" href="https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd">Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017</a>).</p></li>
 </ol>
-</div></blockquote>
+<p>Can you figure out which plant species and/or plant family is most loved by all bee species recorded?</p>
+</div>
 <p>Awesome, you made it!
 Now on to <a class="reference internal" href="3-remote.html"><span class="doc std std-doc">Chapter 3 ⏩</span></a></p>
 </section>
