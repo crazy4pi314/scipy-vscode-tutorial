@@ -14,6 +14,9 @@ Maybe there is a feature or tool you wish your VS Code setup would have, now is 
 There is also [a great docs page](https://code.visualstudio.com/api/language-extensions/overview) covering the API VS Code exposes for the Python language server.
 It doesn't have to be super fancy, but see if you can get a demo extension file to share with someone else to try.
 
+- [VSCode extension in 60 seconds](https://www.youtube.com/watch?v=6r8pJjylmR4)
+- [Building extensions for vscode.dev](https://www.youtube.com/watch?v=sy3TUb_iVJM)
+
 ## Containerize your favorite project
 
 Having infrastructure and tools to make OSS projects more reproducible is quite helpful, so let's try and put some more code back in boxes :P
