@@ -1,5 +1,5 @@
 {
-	"name": "Miniconda demo",
+	"name": "SciPy Demo",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile"
@@ -22,11 +22,17 @@
 			},
 			"extensions": [
 				"ms-python.python",
-				"donjayamanne.python-extension-pack",
 				"ms-toolsai.jupyter",
 				"GitHub.codespaces",
-				"ms-azuretools.vscode-docker",
-				"DavidAnson.vscode-markdownlint"
+				"ms-vscode-remote.remote-containers",
+				"codezombiech.gitignore"
+				"DavidAnson.vscode-markdownlint",
+				"njpwerner.autodocstring",
+				"ms-vscode-remote.vscode-remote-extensionpack",
+				"GitHub.vscode-pull-request-github",
+				"MS-vsliveshare.vsliveshare",
+				"ms-vscode.live-server",
+				"streetsidesoftware.code-spell-checker"
 			]
 		}
 	},

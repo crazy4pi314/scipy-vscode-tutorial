@@ -11,9 +11,16 @@ parts:
   - caption: Chapters
     numbered: True
     chapters:
-    - file: 1-basics
-    - file: 2-devtips
-    - file: 3-remote
-    - file: 4-collaboration
+    - title: The basics
+      file: 1-basics
+    - title: Dev tips and tricks
+      file: 2-devtips
+    - title: Working remotely
+      file: 3-remote
+      sections:
+        - file: history
+        - file: architecture
+    - title: Working together
+      file: 4-collaboration
     - file: demo.ipynb
     

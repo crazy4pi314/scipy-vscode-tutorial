@@ -5,6 +5,14 @@
 		"ms-toolsai.jupyter",
 		"GitHub.codespaces",
 		"ms-azuretools.vscode-docker",
-		"DavidAnson.vscode-markdownlint"
+		"DavidAnson.vscode-markdownlint",
+		"ms-vscode-remote.remote-containers",
+		"codezombiech.gitignore",
+		"njpwerner.autodocstring",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"GitHub.vscode-pull-request-github",
+		"MS-vsliveshare.vsliveshare",
+		"ms-vscode.live-server",
+		"streetsidesoftware.code-spell-checker"
 	]
 }
