@@ -101,7 +101,7 @@ We will set up a Python project and install the necessary extensions. This piece
 
   ```bash
   cd scipy-vscode-tutorial
-  conda install -n base -conda-forge mamba
+  conda install -n base -c conda-forge mamba
   mamba env create -f environment.yml
   ```
 
