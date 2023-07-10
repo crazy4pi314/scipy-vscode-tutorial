@@ -395,16 +395,27 @@ document.write(`
 <section id="the-remote-development-extension-pack">
 <h2><span class="section-number">3.2. </span>The Remote development extension pack<a class="headerlink" href="#the-remote-development-extension-pack" title="Permalink to this heading">#</a></h2>
 <p>Developing inside pre-packaged local DevContainers, on a virtual machine in the cloud, in a GitHub Codespace, and more.</p>
-<ul class="simple">
+<ul>
 <li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl">WSL</a>: Windows Subsystem for Linux was VS Code’s first remote development scenario</p></li>
 <li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote - SSH</a>: Connect your local VS Code to a remote machine over SSH</p>
-<ul>
+<ul class="simple">
 <li><p>Automatic port forwarding (web apps, Jupyter servers)</p></li>
 </ul>
 </li>
-<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server">Remote - Tunnels</a>: Reach remote machines behind firewalls</p></li>
-<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Dev Containers</a>: Work inside containers &amp; make your environment reproducible for others</p>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server">Remote - Tunnels</a>: Reach remote machines behind firewalls</p>
 <ul>
+<li><p>On remote machine, open a terminal and run:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="o">-</span><span class="n">Lk</span> <span class="s1">&#39;https://code.visualstudio.com/sha/download?build=stable&amp;os=cli-alpine-x64&#39;</span> <span class="o">--</span><span class="n">output</span> <span class="n">vscode_cli</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="n">tar</span> <span class="o">-</span><span class="n">xf</span> <span class="n">vscode_cli</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<span class="o">./</span><span class="n">code</span> <span class="n">tunnel</span>
+</pre></div>
+</div>
+</li>
+<li><p>Connect from Desktop app via <code class="docutils literal notranslate"><span class="pre">Remote</span> <span class="pre">Tunnels:</span> <span class="pre">Connect</span> <span class="pre">to</span> <span class="pre">tunnel</span></code></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Dev Containers</a>: Work inside containers &amp; make your environment reproducible for others</p>
+<ul class="simple">
 <li><p>The <a class="reference download internal" download="" href="_downloads/91058cfe83c94e1c3686a94669a88864/devcontainer.json"><span class="xref download myst"><code class="docutils literal notranslate"><span class="pre">devcontainer.json</span></code></span></a> in this repository follows the <a class="reference external" href="https://containers.dev/">Development Containers standard</a></p></li>
 <li><p><a class="reference external" href="https://github.com/features/codespaces">GitHub Codespaces</a> = Dev Containers hosted by GitHub</p></li>
 </ul>
