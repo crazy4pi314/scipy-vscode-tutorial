@@ -25,13 +25,13 @@ Filter the extension marketplace search with `@category:"keymaps"` to see all th
 
 Helpful cheat sheets for keybord shortcuts: [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf), [Mac](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf), [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
 
-> **Exercise**: Explore code navigation
->
-> 1. Create a new file `hello.py` in the `tutorial` package with a function `say_hello` that prints a message using the `emoji` library. Use IntelliSense to find the right function and order of input arguments from the library.
-> 2. Output the text of Zen of Python into a file by running `python -c "import this" > zen_of_python.md`.
-> 3. Open the file and replace the word "is" with the word "was". How many keystrokes does it take to make this replacement in the editor?
-> 4. Use regex search to find all sentences that have the pattern `\w+ better than \w+.`. Replace it with `is awesome!`.
-> 5. Use Alt+ ↑ / ↓ to move the line "Readability counts." to the top.
+```{admonition} Exercise: Explore code navigation
+1. Create a new file `hello.py` in the `tutorial` package with a function `say_hello` that prints a message using the `emoji` library. Use IntelliSense to find the right function and order of input arguments from the library.
+2. Output the text of Zen of Python into a file by running `python -c "import this" > zen_of_python.md`.
+3. Open the file and replace the word "is" with the word "was". How many keystrokes does it take to make this replacement in the editor?
+4. Use regex search to find all sentences that have the pattern `\w+ better than \w+.`. Replace it with `is awesome!`.
+5. Use Alt+ ↑ / ↓ to move the line "Readability counts." to the top.
+```
 
 ### [IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
 
@@ -102,13 +102,13 @@ Sometimes test files can be overwhelming, this extension can make it easier to l
 
 ![](https://github.com/kondratyev-nv/vscode-python-test-adapter/raw/HEAD/img/screenshot.png)
 
-> **Exercise**: Debug code with tests
->
-> 1. Create a new folder called `tests` and a new file `test_hello.py`.
-> 2. Import the functions you've created in the first exercise using `from tutorial.hello import say_hello` and create a new function `test_say_hello` that calls `say_hello`.
-> 3. Open the "Testing" menu by clicking on the vial icon in the Activity bar, click "Configure Python Tests" and choose "pytest". Pick the `tests` folder.
-> 4. Run your test by clicking on the "Run Test" ▷ icon.
-> 5. Add a new `name` input argument to the `say_hello` function. Run your test again. Can you fix the bug?
+```{admonition} Exercise: Debug code with tests
+1. Create a new folder called `tests` and a new file `test_hello.py`.
+2. Import the functions you've created in the first exercise using `from tutorial.hello import say_hello` and create a new function `test_say_hello` that calls `say_hello`.
+3. Open the "Testing" menu by clicking on the vial icon in the Activity bar, click "Configure Python Tests" and choose "pytest". Pick the `tests` folder.
+4. Run your test by clicking on the "Run Test" ▷ icon.
+5. Add a new `name` input argument to the `say_hello` function. Run your test again. Can you fix the bug?
+```
 
 ### [Debugging](https://code.visualstudio.com/Docs/editor/debugging)
 
@@ -148,14 +148,14 @@ Stay focused and use all the keybindings you are familiar with by catching up on
 
 If you don't want to go digging/copying `.gitignore` files from your last project, this extension can provide ones for a variety of languages with just a click.
 
-> **Exercise** Sign our yearbook!
->
-> 1. Fork the [tutorial repo](https://aka.ms/scipy2023) to your GitHub account
-> 2. Edit the file `yearbook2023.md` and add your favorite VS Code tip you've learned so far. Sign it with your GitHub handle.
-> 3. Create a new branch using the menu `Branch` > `Create branch`, and name it `<your username>/yearbook-2023`.
-> 4. Commit your changes to your new branch and push the changes using `Commit & Push`.
-> 5. Create a PR to the origin repo, either with the GitHub PR extension or via the GitHub web interface so we can review and merge!
-
+```{admonition} Exercise: Sign our yearbook!
+1. Fork the [tutorial repo](https://aka.ms/scipy2023) to your GitHub account
+2. Edit the file `yearbook2023.md` and add your favorite VS Code tip you've learned so far. Sign it with your GitHub handle.
+3. Create a new branch using the menu `Branch` > `Create branch`, and name it `<your username>/yearbook-2023`.
+4. Commit your changes to your new branch and push the changes using `Commit & Push`.
+5. Create a PR to the origin repo, either with the GitHub PR extension or via the GitHub web interface so we can review and merge!
+```
+`
 ## Documentation
 
 Don't forget to document your work! Here we'll go over some tools in VS Code and GitHub to level up your docs.
@@ -172,13 +172,12 @@ You can use convenient [GitHub actions](https://github.com/marketplace/actions/d
 ### [Markdown linting](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 
-> **Exercise** Document your code
->
-> 1. Configure the `autoDocstring` extension to use `sphinx` as its Docstring format.
-> 2. Add a docstring to the `say_hello` function you created in an earlier exercise.
-> 3. (Optional) Run `sphinx-quickstart` to set up your Sphinx documentation and follow the steps in this [tutorial](https://github.com/melissawm/minimalsphinx) by @melissawm.
-> 4. (Optional) Install the LaTeX Workshop extension (requires [TeX live](https://www.tug.org/texlive/)). Create a new folder `docs` with file `about.tex`. Start writing a page in [LaTeX](https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf) and explore the IntelliSense features.
->
+```{admonition} Exercise: Document your code
+1. Configure the `autoDocstring` extension to use `sphinx` as its Docstring format.
+2. Add a docstring to the `say_hello` function you created in an earlier exercise.
+3. (Optional) Run `sphinx-quickstart` to set up your Sphinx documentation and follow the steps in this [tutorial](https://github.com/melissawm/minimalsphinx) by @melissawm.
+4. (Optional) Install the LaTeX Workshop extension (requires [TeX live](https://www.tug.org/texlive/)). Create a new folder `docs` with file `about.tex`. Start writing a page in [LaTeX](https://www.colorado.edu/aps/sites/default/files/attached-files/latex_primer.pdf) and explore the IntelliSense features.
+```
 
 ## Data science tools
 
@@ -201,14 +200,14 @@ A new [extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai
 
 ![](https://user-images.githubusercontent.com/15910920/222234663-5e8178f8-851f-4326-8719-9d90039ce023.gif)
 
-> **Exercise** Data Science in VS Code
->
-> 1. Create a new Data Science profile.
-> 2. Open the `demo.ipynb` Jupyter Notebook.
-> 3. Run the example cells in the notebook. Try adding a markdown cell and add some text, or add a code cell.
-> 4. Open the example data file `data/bees.csv` using Data Wrangler and explore the dataset (source: [Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017](https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd)).
-> Can you figure out which plant species and/or plant family is most loved by all bee species recorded?
->
+```{admonition} Exercise: Data Science in VS Code
+1. Create a new Data Science profile.
+2. Open the `demo.ipynb` Jupyter Notebook.
+3. Run the example cells in the notebook. Try adding a markdown cell and add some text, or add a code cell.
+4. Open the example data file `data/bees.csv` using Data Wrangler and explore the dataset (source: [Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017](https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd)).
+
+Can you figure out which plant species and/or plant family is most loved by all bee species recorded?
+```
 
 Awesome, you made it!
 Now on to [Chapter 3 ⏩](3-remote.md)
