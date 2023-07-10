@@ -79,6 +79,6 @@
 > 1. Create a new Data Science profile.
 > 2. Open the `demo.ipynb` Jupyter Notebook.
 > 3. Run the example cells in the notebook. Try adding a markdown cell and add some text, or add a code cell.
-> 4. Open the example data file `bees.csv` using Data Wrangler and explore the dataset (source: [Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017](https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd)).
-> Can you figure out which common plant name is most loved by all bee species recorded?
+> 4. Open the example data file `data/bees.csv` using Data Wrangler and explore the dataset (source: [Bee-Gap: Ecology, Life-History, and Distribution of Bee Species in the United States 2017](https://www.sciencebase.gov/catalog/item/5bd868b2e4b0b3fc5ce9dadd)).
+> Can you figure out which plant species and/or plant family is most loved by all bee species recorded?
 >
