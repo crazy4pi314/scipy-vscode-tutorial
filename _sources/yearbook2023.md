@@ -14,3 +14,4 @@ Sign our yearbook! Add your totally awesome team name and your favorite VS Code 
 - I liked learning about the timeline that has both git commits and save points for the files - @bjcubsfan
 - HTRI: the version control tools are neat - @noahbittner
 - I am pretty new to VS code. It seems like there is a bit of a steep learning curve to figure out some of the cooler features. Favorite aspect thus far: I like that I can run a terminal, test code and run Jupyter session all in one space. - rhiannong123
+- regex search/replace and multiline editing will both be big time savers! @syd-pythonic
