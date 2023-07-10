@@ -55,9 +55,15 @@ Try typing some new code in the sample notebook [here](TODO) and see what Intell
 
 ### [Symbol search](https://code.visualstudio.com/Docs/editor/editingevolved#_open-symbol-by-name)
 
+Helps you look up a particular object/class/method/etc. 
+
 ### [Go To ...](https://code.visualstudio.com/Docs/editor/editingevolved#_go-to-type-definition)
 
+Quick way to follow clues and solve mysteries.
+
 ### [Refactoring](https://code.visualstudio.com/docs/editor/refactoring)
+
+If find all + replace won't work, the refactoring tools like renaming a symbol below are always available.
 
 ![](https://code.visualstudio.com/assets/docs/editor/refactoring/rename.png)
 
@@ -76,7 +82,7 @@ Now that we finally know our way around the editor it’s time to write and test
 One important concept here is understanding what is the current Python interpreter. This can be set from the command pallet, and is the actual install/environment where VS Code will run your code.
 ```
 
-### Running scripts
+### [Running scripts](https://code.visualstudio.com/docs/python/python-tutorial#_run-hello-world)
 
 There are a few ways to run Python code in VS Code (other than the terminal 😄):
 
@@ -172,11 +178,21 @@ You can use convenient [GitHub actions](https://github.com/marketplace/actions/d
 
 After writing your code, let’s put it to use. Here we’ll cover some of VS Code’s specialized features for data science, and install some typical extensions that plug into the scientific Python ecosystem.
 
-### Jupyter notebooks: coding, testing and debugging
+### [Jupyter notebooks:](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 
-### Visuals in notebooks
+- Running with keyboard shortcuts
+- Customizing UI
+- Variable + Data viewer
+- Kernel selection
+- Debugging
+- Notebook diffs
+- Saving + inserting images
 
-### Data wrangler
+### Hot of the presses: [Data wrangler](https://devblogs.microsoft.com/python/data-wrangler-release/)
+
+A new [extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) just a few months new that helps with some of that initial data exploration with cool UI which also can capture what manipulations you make and generate the Pandas code needed to reproduce!
+
+![](https://user-images.githubusercontent.com/15910920/222234663-5e8178f8-851f-4326-8719-9d90039ce023.gif)
 
 > **Exercise** Data Science in VS Code
 >
