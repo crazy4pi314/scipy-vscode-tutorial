@@ -354,11 +354,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">VS Code - client/server architecture</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#example-vs-code-desktop-with-remote-ssh-extension">Example - VS Code Desktop with Remote SSH extension</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-where-are-the-extensions-running">Overview - Where are the extensions running?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-vs-code-desktop-with-wsl-extension">Example - VS Code Desktop with WSL extension</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-vs-code-desktop-with-remote-ssh-extension">Example - VS Code Desktop with Remote SSH extension</a></li>
 </ul>
-
             </nav>
         </div>
     </div>
@@ -372,13 +370,13 @@ document.write(`
   <section id="vs-code-client-server-architecture">
 <h1>VS Code - client/server architecture<a class="headerlink" href="#vs-code-client-server-architecture" title="Permalink to this heading">#</a></h1>
 <ul class="simple">
-<li><p>Graphical user interface runs inside</p>
+<li><p>Graphical user interface can run inside</p>
 <ul>
 <li><p>Electron app: VS Code Desktop application</p></li>
 <li><p>Browser: GitHub Codespace, vscode.dev, github.dev, …</p></li>
 </ul>
 </li>
-<li><p>Backend runs inside</p>
+<li><p>Backend can run inside</p>
 <ul>
 <li><p>Electron app: VS Code Desktop application</p></li>
 <li><p>Local WSL: WSL extension</p></li>
@@ -389,17 +387,16 @@ document.write(`
 </ul>
 </li>
 </ul>
+<section id="example-vs-code-desktop-with-wsl-extension">
+<h2>Example - VS Code Desktop with WSL extension<a class="headerlink" href="#example-vs-code-desktop-with-wsl-extension" title="Permalink to this heading">#</a></h2>
+<p><img alt="VS Code WSL" src="_images/architecture-wsl.png" /></p>
 </section>
 <section id="example-vs-code-desktop-with-remote-ssh-extension">
-<h1>Example - VS Code Desktop with Remote SSH extension<a class="headerlink" href="#example-vs-code-desktop-with-remote-ssh-extension" title="Permalink to this heading">#</a></h1>
-<p><img alt="VS Code architecture" src="_images/architecture.png" /></p>
-<ul class="simple">
-<li><p>VS Code version of local client and remote server must match exactly</p></li>
-</ul>
+<h2>Example - VS Code Desktop with Remote SSH extension<a class="headerlink" href="#example-vs-code-desktop-with-remote-ssh-extension" title="Permalink to this heading">#</a></h2>
+<p><img alt="VS Code Remote SSH" src="_images/architecture.png" /></p>
+<!-- ## Overview - Where are the extensions running?
+![Extension hosts](static/architecture/extensions.png) -->
 </section>
-<section id="overview-where-are-the-extensions-running">
-<h1>Overview - Where are the extensions running?<a class="headerlink" href="#overview-where-are-the-extensions-running" title="Permalink to this heading">#</a></h1>
-<p><img alt="Extension hosts" src="_images/extensions.png" /></p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -451,11 +448,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">VS Code - client/server architecture</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#example-vs-code-desktop-with-remote-ssh-extension">Example - VS Code Desktop with Remote SSH extension</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-where-are-the-extensions-running">Overview - Where are the extensions running?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-vs-code-desktop-with-wsl-extension">Example - VS Code Desktop with WSL extension</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-vs-code-desktop-with-remote-ssh-extension">Example - VS Code Desktop with Remote SSH extension</a></li>
 </ul>
-
   </nav></div>
 
 </div></div>
