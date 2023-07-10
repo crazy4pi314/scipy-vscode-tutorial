@@ -388,10 +388,22 @@ document.write(`
 <h3><strong>Option 1:</strong> Work on your computer<a class="headerlink" href="#option-1-work-on-your-computer" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://code.visualstudio.com/download">Install VS Code</a></p></li>
-<li><p><a class="reference external" href="https://github.com/git-guides/install-git">Install git</a></p></li>
-<li><p><a class="reference external" href="https://docs.docker.com/engine/install/">Install Docker</a> (optional, for DevContainers)</p></li>
+<li><p>Install local development environment</p></li>
+</ol>
+<ul class="simple">
+<li><p>Variant A: Native installation</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/git-guides/install-git">Install Git</a></p></li>
+<li><p><a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">Install Miniconda</a></p></li>
+<li><p>Note for Windows users: You may want to <a class="reference external" href="https://learn.microsoft.com/en-us/windows/wsl/install">install WSL2</a> and install Git and Miniconda in the Linux subsystem.</p></li>
+</ul>
+</li>
+<li><p>Variant B: Use Linux containers. Just <a class="reference external" href="https://docs.docker.com/engine/install/">install Docker</a></p></li>
+</ul>
+<ol class="arabic simple" start="3">
 <li><p>Clone this repository:  <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/crazy4pi314/scipy-vscode-tutorial</span></code></p></li>
 <li><p>Open the repository in VS Code <code class="docutils literal notranslate"><span class="pre">code</span> <span class="pre">scipy-vscode-tutorial</span></code></p></li>
+<li><p>(Docker only) With your repo open in VS Code, install the <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers">Development Container</a> extension (if you don’t already have it) which will give you command pallet options to re-open the repo in a dev container.</p></li>
 </ol>
 <p>You should now have the repository open in your local VS Code instance.</p>
 </section>
