@@ -22,5 +22,7 @@ parts:
         - file: architecture
     - title: Working together
       file: 4-collaboration
-    - file: demo.ipynb
-    
+    - title: Bonus challenges
+      file: challenges
+    - title: 😎 SciPy 2023 yearbook
+      file: yearbook2023

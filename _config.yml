@@ -6,7 +6,7 @@ author: SciPy 2023
 logo: static/vscode-bit.png
 # Auto-exclude files not in the toc
 only_build_toc_files: false
-exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", sample_files, .devcontainer, .gitignore]
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", demo.ipynb, .devcontainer, .gitignore, CODE_OF_CONDUCT.md]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

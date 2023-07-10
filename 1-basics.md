@@ -31,7 +31,9 @@ A brief overview of VS Code.
   - Local (Desktop icon / `code .`)
   - Browser: Primary option for workshop (https://vscode.dev/, `.` on any GitHub page)
 
-> **Prep exercise**: Follow the setup instructions in the [README](README.md#setup-instructions). For quick set-up we recommend using Codespaces directly from GitHub!
+```{admonition} Prep Exercise
+Follow the setup instructions in the [README](README.md#setup-instructions). For quick set-up we recommend using Codespaces directly from GitHub!
+```
 
 ## An anatomy of the VS Code UI
 
@@ -48,13 +50,12 @@ How to navigate VS Code’s user interface.
 - [VS Code terminal](https://code.visualstudio.com/docs/terminal/advanced) (xtermjs)
 - [Navigating without a mouse](https://www.youtube.com/watch?v=dJWJ0hCAkAI)
 
-> **Exercise**: Explore VS Code acessibility
->
-> 1. Browse to the tutorial repo on GitHub and try opening it either in your browser (press `.` when on repo page) or cloning it locally and opening with `code .`.
-> 2. Use the Command Palette to Zoom in and Zoom out (editor and/or view).
-> 3. Search for Color Themes using the Extensions tab. You can find extensions or color themes that are accessible for color vision deficiencies, for example, take a look at the color blind-friendly extensions. If you are using a [screen reader](https://code.visualstudio.com/docs/editor/accessibility#_screen-readers) such as NVDA, JAWS and VoiceOver, try using it with VS Code!
-> 4. Use the Command Palette or "gear" icon to change your Color Theme to a non-default one.
->
+```{admonition} Exercise: Explore VS Code accessibility
+1. Browse to the tutorial repo on GitHub and try opening it either in your browser (press `.` when on repo page) or cloning it locally and opening with `code .`.
+2. Use the Command Palette to Zoom in and Zoom out (editor and/or view).
+3. Search for Color Themes using the Extensions tab. You can find extensions or color themes that are accessible for color vision deficiencies, for example, take a look at the color blind-friendly extensions. If you are using a [screen reader](https://code.visualstudio.com/docs/editor/accessibility#_screen-readers) such as NVDA, JAWS and VoiceOver, try using it with VS Code!
+4. Use the Command Palette or "gear" icon to change your Color Theme to a non-default one.
+```
 
 ## Customize your UI
 
@@ -73,15 +74,14 @@ More fun and helpful UI features and settings.
 - [Extensions marketplace](https://code.visualstudio.com/docs/editor/extension-marketplace)
   - Don't see what you need? [Make your own!](https://code.visualstudio.com/api/get-started/your-first-extension)
 
-> **Exercise**: Share your profile
->
-> 1. Create a new profile or use one of the templates.
-> 2. Either in your local or browser-based VS Code, try customizing some settings, themes, font sizes, etc.
-> 3. Export your current profile as a gist (or locally if you prefer).
-> 4. Copy-paste the URL for your profile gist, and add it to the [discussion page](https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17).
-> 5. Try making a profile for presenting/screencasting or maybe a distraction-free writing space and take turns sharing all your cool new profiles with your team 😄
-> 6. Try importing a profile created by someone else via the `Profiles` > `Import Profile...` option in the Gear menu! You can find @crazy4pi314's profiles [here](https://gist.github.com/crazy4pi314/a3b1157dcd0873d471fb79cf5dffaba4).
->
+```{admonition} Exercise: Share your profile
+1. Create a new profile or use one of the templates.
+2. Either in your local or browser-based VS Code, try customizing some settings, themes, font sizes, etc.
+3. Export your current profile as a gist (or locally if you prefer).
+4. Copy-paste the URL for your profile gist, and add it to the [discussion page](https://github.com/crazy4pi314/scipy-vscode-tutorial/discussions/17).
+5. Try making a profile for presenting/screencasting or maybe a distraction-free writing space and take turns sharing all your cool new profiles with your team 😄
+6. Try importing a profile created by someone else via the `Profiles` > `Import Profile...` option in the Gear menu! You can find @crazy4pi314's profiles [here](https://gist.github.com/crazy4pi314/a3b1157dcd0873d471fb79cf5dffaba4).
+```
 
 ## Setting up for Python development
 
@@ -95,28 +95,28 @@ We will set up a Python project and install the necessary extensions. This piece
   - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
   - formatters / linters: pylint, flake8, black, autopep8, ...
 
-> **Exercise**: New Python project from scratch
->
-> 1. In the Codespace for this workshop or locally (in a Dev Container) on your machine, create a new virtual environment by running:
->
-> ```bash
-> cd scipy-vscode-tutorial
-> conda install -n base -conda-forge mamba
-> mamba env create -f environment.yml
-> ```
->
-> 2. Install the tutorial package by running:
->
-> ```bash
-> pip install -e .
-> ```
->
-> 3. Use the Command Palette to run the `Python: Select Interpreter` command and set it to the `tutorial` environment you just created.
-> 4. Use the Command Palette to create a new Interactive Window using the `Jupyter: Create Interactive Window` command.
-> 5. Run the following lines to test your environment:
->
->   ```python
->   from tutorial import welcome
->   welcome()
->   ```
->
+````{admonition} Exercise: New Python project from scratch
+
+ 1. In the Codespace for this workshop or locally (in a Dev Container) on your machine, create a new virtual environment by running:
+
+  ```bash
+  cd scipy-vscode-tutorial
+  conda install -n base -conda-forge mamba
+  mamba env create -f environment.yml
+  ```
+
+ 2. Install the tutorial package by running:
+
+  ```bash
+  pip install -e .
+  ```
+
+ 3. Use the Command Palette to run the `Python: Select Interpreter` command and set it to the `tutorial` environment you just created.
+ 4. Use the Command Palette to create a new Interactive Window using the `Jupyter: Create Interactive Window` command.
+ 5. Run the following lines to test your environment:
+
+  ```python
+  from tutorial import welcome
+  welcome()
+  ```
+````
