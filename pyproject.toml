@@ -1,0 +1,4 @@
+[project]
+name = "tutorial"
+description = "SciPy 2023 VS Code tutorial"
+version = "0.1.0"
