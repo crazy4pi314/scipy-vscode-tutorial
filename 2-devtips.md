@@ -15,8 +15,8 @@
 
 > **Exercise**: Explore code navigation
 >
-> 1. Create a new file `src/tutorial/hello.py` with a function `say_hello` that prints a message using the `emoji` library.
-> 2. Output the text of Zen of Python into a file by running `python -c "import this" > src/tutorial/zen_of_python.md`.
+> 1. Create a new file `hello.py` in the `tutorial` package with a function `say_hello` that prints a message using the `emoji` library. Use IntelliSense to find the right function and order of input arguments from the library.
+> 2. Output the text of Zen of Python into a file by running `python -c "import this" > zen_of_python.md`.
 > 3. Open the file and replace the word "is" with the word "was". How many keystrokes does it take to make this replacement in the editor?
 > 4. Use regex search to find all sentences that have the pattern `\w+ better than \w+.`. Replace it with `is awesome!`.
 > 5. Use Alt+ ↑ / ↓ to move the line "Readability counts." to the top.
@@ -33,7 +33,7 @@
 >
 > 1. Create a new folder called `tests` and a new file `test_hello.py`.
 > 2. Import the functions you've created in the first exercise using `from tutorial.hello import say_hello` and create a new function `test_say_hello` that calls `say_hello`.
-> 3. Open the "Testing" menu by clicking on the vial icon in the primary side bar, click "Configure Python Tests" and choose "pytest". Pick the `tests` folder.
+> 3. Open the "Testing" menu by clicking on the vial icon in the Activity bar, click "Configure Python Tests" and choose "pytest". Pick the `tests` folder.
 > 4. Run your test by clicking on the "Run Test" ▷ icon.
 > 5. Add a new `name` input argument to the `say_hello` function. Run your test again. Can you fix the bug?
 
