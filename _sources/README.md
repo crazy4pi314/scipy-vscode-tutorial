@@ -9,6 +9,19 @@ _A hands-on tutorial on how to get the most out of the world’s most popular Py
 
 Visual Studio Code (VS Code) is a free code editor that runs on Windows, Linux, macOS and in your browser. This tutorial aims at Python programmers of all levels who are already using VS Code or are interested in doing so, and will take them from zero (installing VS Code) to a production setup for Python development. We will cover starter topics, such as customizing the UI and extensions, using code autocomplete, code navigation, debugging, and Jupyter Notebooks. We will also go into advanced use cases, such as remote development, pair programming via Live Share, Dev containers, GitHub Codespaces & more.
 
+## Tutorial schedule
+
+We end each section with a recap to go over everything we’ve covered and an opportunity to ask questions.
+
+| Time  | Duration | Topic                  |
+|-------|----------|------------------------|
+| 13:30 | 60 min   | [The basics of Python development in VS Code](1-basics.md)        |
+| 14:30 | 10 min   | Break                  |
+| 14:40 | 60 min   | [Scientific Python development tips and tricks](2-devtips.md)       |
+| 15:40 | 10 min   | Break                  |
+| 15:50 | 60 min   | [Interacting with remote resources](3-remote.md)        |
+| 16:50 | 10 min   | Break                  |
+| 17:00 | 60 min   | [Working together, but make it fast](4-collaboration.md) |
 ## Setup Instructions
 
 
@@ -48,19 +61,6 @@ Contrary to option 2 this does not require a GitHub account - all you need is a 
 We will share a https://vscode.dev/liveshare link at the start of the session.
 When opening the link, select "Continue on web" and "Continue as anonymous".
 
-## Tutorial schedule
-
-We end each section with a recap to go over everything we’ve covered and an opportunity to ask questions.
-
-| Time  | Duration | Topic                  |
-|-------|----------|------------------------|
-| 13:30 | 60 min   | [The basics of Python development in VS Code](1-basics.md)        |
-| 14:30 | 10 min   | Break                  |
-| 14:40 | 60 min   | [Scientific Python development tips and tricks](2-devtips.md)       |
-| 15:40 | 10 min   | Break                  |
-| 15:50 | 60 min   | [Interacting with remote resources](3-remote.md)        |
-| 16:50 | 10 min   | Break                  |
-| 17:00 | 60 min   | [Working together, but make it fast](4-collaboration.md) |
 
 ## Structure of this repository
 
