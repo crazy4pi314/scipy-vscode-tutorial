@@ -30,7 +30,7 @@ You should now have the repository open in your local VS Code instance.
 
 After a short while you should have a VS Code window in your browser with the repository open.
 
-This option gives you a fully fledged VS Code environment (some [limitations apply](https://code.visualstudio.com/docs/remote/codespaces#_known-limitations-and-adaptations)), and should work on laptops and tablets alike.
+This option gives you a fully functional VS Code environment (with [some limitations](https://code.visualstudio.com/docs/remote/codespaces#_known-limitations-and-adaptations)), and should work on laptops and tablets alike.
 
 > Note: GitHub codespaces come with [120 core-hours and 15 GB-months for free](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces) for all GitHub accounts (180 core-hours for verified student accounts).
 By default, the container running your codespace will have 2 CPU cores, 4 GB of RAM, and 32 GB of local storage.
