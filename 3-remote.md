@@ -42,9 +42,9 @@ Here are some ideas:
 Everything runs inside your browser
 
 - Press `.` on any GitHub repo
-- LiveShare
 - [Continue working on](https://code.visualstudio.com/docs/editor/vscode-web#_continue-working-in-a-different-environment) a different device without having to commit
-
+- More "workspace extensions" are coming to vscode.dev
+  - Already there: LiveShare, some language servers, ...
 
 **Exercise**
 
