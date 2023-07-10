@@ -15,13 +15,14 @@ We end each section with a recap to go over everything we’ve covered and an op
 
 | Time  | Duration | Topic                  |
 |-------|----------|------------------------|
-| 13:30 | 60 min   | [The basics of Python development in VS Code](1-basics.md)        |
+| 13:30 | 50 min   | [The basics of Python development in VS Code](1-basics.md)        |
 | 14:20 | 10 min   | Break                  |
-| 14:30 | 60 min   | [Scientific Python development tips and tricks](2-devtips.md)       |
+| 14:30 | 50 min   | [Scientific Python development tips and tricks](2-devtips.md)       |
 | 15:20 | 10 min   | Break                  |
-| 15:30 | 60 min   | [Interacting with remote resources](3-remote.md)        |
+| 15:30 | 50 min   | [Interacting with remote resources](3-remote.md)        |
 | 16:20 | 10 min   | Break                  |
-| 16:30 | 60 min   | [Working together, but make it fast](4-collaboration.md) |
+| 16:30 | 50 min   | [Working together, but make it fast](4-collaboration.md) |
+| 17:20 | 10 min   | Closing remarks        |
 ## Setup Instructions
 
 ### **Option 1:** Work on your computer
