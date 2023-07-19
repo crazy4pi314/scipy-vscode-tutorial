@@ -15,3 +15,4 @@ Sign our yearbook! Add your totally awesome team name and your favorite VS Code 
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) used to be kind of a bit much when I wanted to just have a `git blame` function, but now they moved it to its own extension option and it's a lot better now. - @anzelpwj
 - Dont leave VCcode in your downloads folder for over a year. - @jeffotter
 - Snippets are fun (confusing fun for now) - @yutik-nn
+- Found about regex, looking forward to use them working on future projects. - @VadimBim 
